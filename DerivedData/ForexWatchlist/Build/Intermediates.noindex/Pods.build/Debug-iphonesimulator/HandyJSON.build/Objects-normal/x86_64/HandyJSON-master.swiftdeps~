@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
 options: "dc312468b0272c165d1949098899427a"
-build_time: [1603654470, 792090000]
+build_time: [1603655317, 717668000]
 inputs:
   "/Users/deepansh/Desktop/ForexWatchlist/Pods/HandyJSON/Source/AnyExtensions.swift": [1603487716, 925148280]
   "/Users/deepansh/Desktop/ForexWatchlist/Pods/HandyJSON/Source/BuiltInBasicType.swift": [1603487716, 922473289]

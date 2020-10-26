@@ -12,6 +12,7 @@
 		7E10AF626D73C66B118FB7D5 /* Pods_ForexWatchlist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B0B65F3113204DD69A89E3 /* Pods_ForexWatchlist.framework */; };
 		B23462E22544286900C6E225 /* WatchlistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23462E12544286900C6E225 /* WatchlistDetailViewController.swift */; };
 		B23462EA25460E1100C6E225 /* ForexViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23462E925460E1100C6E225 /* ForexViewModel.swift */; };
+		B23462EC2546D3B100C6E225 /* Forex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23462EB2546D3B100C6E225 /* Forex.swift */; };
 		B2DFD12825416E59004EF9D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DFD12725416E59004EF9D2 /* AppDelegate.swift */; };
 		B2DFD12A25416E59004EF9D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DFD12925416E59004EF9D2 /* SceneDelegate.swift */; };
 		B2DFD12F25416E59004EF9D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2DFD12D25416E59004EF9D2 /* Main.storyboard */; };
@@ -24,7 +25,6 @@
 		B2DFD15C2542C9EA004EF9D2 /* WatchlistEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DFD15B2542C9EA004EF9D2 /* WatchlistEditViewController.swift */; };
 		B2DFD15F2542CAEC004EF9D2 /* WatchlistEditTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DFD15E2542CAEC004EF9D2 /* WatchlistEditTableViewCell.swift */; };
 		B2DFD1612542CEA3004EF9D2 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DFD1602542CEA3004EF9D2 /* AppConfig.swift */; };
-		B2DFD1632542F42C004EF9D2 /* Forex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DFD1622542F42C004EF9D2 /* Forex.swift */; };
 		B2DFD1652542F67E004EF9D2 /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DFD1642542F67E004EF9D2 /* NetworkConfig.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +54,7 @@
 		A6039F9CA2847B5081C7A3CB /* Pods-ForexWatchlist-ForexWatchlistUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForexWatchlist-ForexWatchlistUITests.debug.xcconfig"; path = "Target Support Files/Pods-ForexWatchlist-ForexWatchlistUITests/Pods-ForexWatchlist-ForexWatchlistUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B23462E12544286900C6E225 /* WatchlistDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistDetailViewController.swift; sourceTree = "<group>"; };
 		B23462E925460E1100C6E225 /* ForexViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForexViewModel.swift; sourceTree = "<group>"; };
+		B23462EB2546D3B100C6E225 /* Forex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forex.swift; sourceTree = "<group>"; };
 		B2DFD12425416E59004EF9D2 /* ForexWatchlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForexWatchlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2DFD12725416E59004EF9D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2DFD12925416E59004EF9D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,7 +73,6 @@
 		B2DFD15B2542C9EA004EF9D2 /* WatchlistEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistEditViewController.swift; sourceTree = "<group>"; };
 		B2DFD15E2542CAEC004EF9D2 /* WatchlistEditTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistEditTableViewCell.swift; sourceTree = "<group>"; };
 		B2DFD1602542CEA3004EF9D2 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
-		B2DFD1622542F42C004EF9D2 /* Forex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Forex.swift; path = "../New Group/Forex.swift"; sourceTree = "<group>"; };
 		B2DFD1642542F67E004EF9D2 /* NetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
 		C0AE76A00E9655B63AD47D87 /* Pods-ForexWatchlist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForexWatchlist.release.xcconfig"; path = "Target Support Files/Pods-ForexWatchlist/Pods-ForexWatchlist.release.xcconfig"; sourceTree = "<group>"; };
 		C3608F231761D5124E768F9D /* Pods_ForexWatchlist_ForexWatchlistUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForexWatchlist_ForexWatchlistUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,7 +143,7 @@
 		B23462E52544A08200C6E225 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B2DFD1622542F42C004EF9D2 /* Forex.swift */,
+				B23462EB2546D3B100C6E225 /* Forex.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -472,6 +472,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2DFD15C2542C9EA004EF9D2 /* WatchlistEditViewController.swift in Sources */,
+				B23462EC2546D3B100C6E225 /* Forex.swift in Sources */,
 				B23462EA25460E1100C6E225 /* ForexViewModel.swift in Sources */,
 				B2DFD1612542CEA3004EF9D2 /* AppConfig.swift in Sources */,
 				B2DFD12825416E59004EF9D2 /* AppDelegate.swift in Sources */,
@@ -479,7 +480,6 @@
 				B2DFD15A25428197004EF9D2 /* WatchlistTableViewCell.swift in Sources */,
 				B2DFD1652542F67E004EF9D2 /* NetworkConfig.swift in Sources */,
 				B2DFD15F2542CAEC004EF9D2 /* WatchlistEditTableViewCell.swift in Sources */,
-				B2DFD1632542F42C004EF9D2 /* Forex.swift in Sources */,
 				B23462E22544286900C6E225 /* WatchlistDetailViewController.swift in Sources */,
 				B2DFD12A25416E59004EF9D2 /* SceneDelegate.swift in Sources */,
 			);
