@@ -130,14 +130,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		B23462E32544A05400C6E225 /* ViewContrller */ = {
+		B23462E32544A05400C6E225 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
 				B2DFD15725416FBA004EF9D2 /* WatchlistViewController.swift */,
 				B23462E12544286900C6E225 /* WatchlistDetailViewController.swift */,
 				B2DFD15B2542C9EA004EF9D2 /* WatchlistEditViewController.swift */,
 			);
-			path = ViewContrller;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		B23462E52544A08200C6E225 /* Model */ = {
@@ -165,13 +165,13 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
-		B23462E82546097C00C6E225 /* TableView Cell */ = {
+		B23462E82546097C00C6E225 /* TableViewCell */ = {
 			isa = PBXGroup;
 			children = (
 				B2DFD15925428197004EF9D2 /* WatchlistTableViewCell.swift */,
 				B2DFD15E2542CAEC004EF9D2 /* WatchlistEditTableViewCell.swift */,
 			);
-			path = "TableView Cell";
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 		B2DFD11B25416E59004EF9D2 = {
@@ -201,10 +201,10 @@
 			children = (
 				B2DFD12725416E59004EF9D2 /* AppDelegate.swift */,
 				B2DFD12925416E59004EF9D2 /* SceneDelegate.swift */,
-				B23462E32544A05400C6E225 /* ViewContrller */,
+				B23462E32544A05400C6E225 /* ViewController */,
 				B23462E62546082F00C6E225 /* ViewModel */,
 				B23462E52544A08200C6E225 /* Model */,
-				B23462E82546097C00C6E225 /* TableView Cell */,
+				B23462E82546097C00C6E225 /* TableViewCell */,
 				B23462E7254608C700C6E225 /* Helper */,
 				B2DFD12D25416E59004EF9D2 /* Main.storyboard */,
 				B2DFD13025416E5B004EF9D2 /* Assets.xcassets */,

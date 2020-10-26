@@ -1,15 +1,15 @@
 version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
 options: "39b2898b4280eba0b6aa66b36076e261"
-build_time: [1603705909, 859650000]
+build_time: [1603706315, 95072000]
 inputs:
-  "/Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/ViewContrller/WatchlistEditViewController.swift": [1603654232, 729845060]
+  "/Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/ViewController/WatchlistEditViewController.swift": [1603654232, 729845060]
   "/Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/Model/Forex.swift": [1603662936, 986262328]
   "/Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/ViewModel/ForexViewModel.swift": [1603703008, 352951277]
   "/Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/Helper/AppConfig.swift": [1603703547, 446113732]
   "/Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/AppDelegate.swift": [1603690605, 393413247]
-  "/Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/ViewContrller/WatchlistViewController.swift": [1603703897, 292339512]
-  "/Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/TableView Cell/WatchlistTableViewCell.swift": [1603654298, 312281383]
+  "/Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/ViewController/WatchlistViewController.swift": [1603703897, 292339512]
+  "/Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/TableViewCell/WatchlistTableViewCell.swift": [1603654298, 312281383]
   "/Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/Helper/NetworkConfig.swift": [1603704313, 705944298]
-  "/Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/TableView Cell/WatchlistEditTableViewCell.swift": [1603654298, 296596283]
-  "/Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/ViewContrller/WatchlistDetailViewController.swift": [1603703008, 373146125]
+  "/Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/TableViewCell/WatchlistEditTableViewCell.swift": [1603654298, 296596283]
+  "/Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/ViewController/WatchlistDetailViewController.swift": [1603703008, 373146125]
   "/Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/SceneDelegate.swift": [1603352281, 449843298]

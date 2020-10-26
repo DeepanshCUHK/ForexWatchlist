@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>43C565A0-7AFB-49FD-9A0E-4ED6CC9591BB</key>
+		<key>04BF42B5-5A6F-40DB-9F34-F9B7A8E969B5</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>43C565A0-7AFB-49FD-9A0E-4ED6CC9591BB.xcactivitylog</string>
+			<string>04BF42B5-5A6F-40DB-9F34-F9B7A8E969B5.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Build ForexWatchlist</string>
 			<key>timeStartedRecording</key>
-			<real>625398817.228948</real>
+			<real>625399138.95707095</real>
 			<key>timeStoppedRecording</key>
-			<real>625398817.361485</real>
+			<real>625399139.07902801</real>
 			<key>title</key>
 			<string>Build ForexWatchlist</string>
 			<key>uniqueIdentifier</key>
-			<string>43C565A0-7AFB-49FD-9A0E-4ED6CC9591BB</string>
+			<string>04BF42B5-5A6F-40DB-9F34-F9B7A8E969B5</string>
 		</dict>
-		<key>FFCF63C1-DD37-4FFC-B2F0-7B1ABDC5D052</key>
+		<key>F7F20335-FAF9-4EC3-B326-6DD4B09DF419</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>FFCF63C1-DD37-4FFC-B2F0-7B1ABDC5D052.xcactivitylog</string>
+			<string>F7F20335-FAF9-4EC3-B326-6DD4B09DF419.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,13 +66,13 @@
 			<key>signature</key>
 			<string>Build ForexWatchlist</string>
 			<key>timeStartedRecording</key>
-			<real>625398785.23144805</real>
+			<real>625399114.00301898</real>
 			<key>timeStoppedRecording</key>
-			<real>625398785.51392996</real>
+			<real>625399119.36760795</real>
 			<key>title</key>
 			<string>Build ForexWatchlist</string>
 			<key>uniqueIdentifier</key>
-			<string>FFCF63C1-DD37-4FFC-B2F0-7B1ABDC5D052</string>
+			<string>F7F20335-FAF9-4EC3-B326-6DD4B09DF419</string>
 		</dict>
 	</dict>
 </dict>

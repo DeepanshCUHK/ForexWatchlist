@@ -1,11 +1,11 @@
-/Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/ViewContrller/WatchlistEditViewController.swift
+/Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/ViewController/WatchlistEditViewController.swift
 /Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/Model/Forex.swift
 /Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/ViewModel/ForexViewModel.swift
 /Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/Helper/AppConfig.swift
 /Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/AppDelegate.swift
-/Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/ViewContrller/WatchlistViewController.swift
-/Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/TableView\ Cell/WatchlistTableViewCell.swift
+/Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/ViewController/WatchlistViewController.swift
+/Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/TableViewCell/WatchlistTableViewCell.swift
 /Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/Helper/NetworkConfig.swift
-/Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/TableView\ Cell/WatchlistEditTableViewCell.swift
-/Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/ViewContrller/WatchlistDetailViewController.swift
+/Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/TableViewCell/WatchlistEditTableViewCell.swift
+/Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/ViewController/WatchlistDetailViewController.swift
 /Users/deepansh/Desktop/ForexWatchlist/ForexWatchlist/SceneDelegate.swift
