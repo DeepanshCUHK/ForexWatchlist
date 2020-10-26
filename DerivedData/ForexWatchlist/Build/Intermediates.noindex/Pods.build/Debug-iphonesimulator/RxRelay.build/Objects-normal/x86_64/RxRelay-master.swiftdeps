@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "43032bc90cf0248c64b2a6157dc40c61"
+build_time: [1603654472, 574976000]
+inputs:
+  "/Users/deepansh/Desktop/ForexWatchlist/Pods/RxRelay/RxRelay/BehaviorRelay.swift": [1603487719, 781125471]
+  "/Users/deepansh/Desktop/ForexWatchlist/Pods/RxRelay/RxRelay/Observable+Bind.swift": [1603487719, 780295944]
+  "/Users/deepansh/Desktop/ForexWatchlist/Pods/RxRelay/RxRelay/PublishRelay.swift": [1603487719, 779583472]
+  "/Users/deepansh/Desktop/ForexWatchlist/Pods/RxRelay/RxRelay/Utils.swift": [1603487719, 780714063]

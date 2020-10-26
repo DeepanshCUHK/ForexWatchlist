@@ -3,18 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AB0C8EEAF0BCBF1ACD95BBC /* Pods_ForexWatchlist_ForexWatchlistUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3608F231761D5124E768F9D /* Pods_ForexWatchlist_ForexWatchlistUITests.framework */; };
+		254D290BBD44C98DF4271571 /* Pods_ForexWatchlistTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895BE6576DA1A60466FC3B27 /* Pods_ForexWatchlistTests.framework */; };
+		7E10AF626D73C66B118FB7D5 /* Pods_ForexWatchlist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B0B65F3113204DD69A89E3 /* Pods_ForexWatchlist.framework */; };
+		B23462E22544286900C6E225 /* WatchlistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23462E12544286900C6E225 /* WatchlistDetailViewController.swift */; };
+		B23462EA25460E1100C6E225 /* ForexViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23462E925460E1100C6E225 /* ForexViewModel.swift */; };
 		B2DFD12825416E59004EF9D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DFD12725416E59004EF9D2 /* AppDelegate.swift */; };
 		B2DFD12A25416E59004EF9D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DFD12925416E59004EF9D2 /* SceneDelegate.swift */; };
-		B2DFD12C25416E59004EF9D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DFD12B25416E59004EF9D2 /* ViewController.swift */; };
 		B2DFD12F25416E59004EF9D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2DFD12D25416E59004EF9D2 /* Main.storyboard */; };
 		B2DFD13125416E5B004EF9D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2DFD13025416E5B004EF9D2 /* Assets.xcassets */; };
 		B2DFD13425416E5B004EF9D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2DFD13225416E5B004EF9D2 /* LaunchScreen.storyboard */; };
 		B2DFD13F25416E5B004EF9D2 /* ForexWatchlistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DFD13E25416E5B004EF9D2 /* ForexWatchlistTests.swift */; };
 		B2DFD14A25416E5B004EF9D2 /* ForexWatchlistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DFD14925416E5B004EF9D2 /* ForexWatchlistUITests.swift */; };
+		B2DFD15825416FBA004EF9D2 /* WatchlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DFD15725416FBA004EF9D2 /* WatchlistViewController.swift */; };
+		B2DFD15A25428197004EF9D2 /* WatchlistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DFD15925428197004EF9D2 /* WatchlistTableViewCell.swift */; };
+		B2DFD15C2542C9EA004EF9D2 /* WatchlistEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DFD15B2542C9EA004EF9D2 /* WatchlistEditViewController.swift */; };
+		B2DFD15F2542CAEC004EF9D2 /* WatchlistEditTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DFD15E2542CAEC004EF9D2 /* WatchlistEditTableViewCell.swift */; };
+		B2DFD1612542CEA3004EF9D2 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DFD1602542CEA3004EF9D2 /* AppConfig.swift */; };
+		B2DFD1632542F42C004EF9D2 /* Forex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DFD1622542F42C004EF9D2 /* Forex.swift */; };
+		B2DFD1652542F67E004EF9D2 /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DFD1642542F67E004EF9D2 /* NetworkConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +46,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E45522CD70FC8C0FDFA8F6A /* Pods-ForexWatchlist-ForexWatchlistUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForexWatchlist-ForexWatchlistUITests.release.xcconfig"; path = "Target Support Files/Pods-ForexWatchlist-ForexWatchlistUITests/Pods-ForexWatchlist-ForexWatchlistUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5433225DBED0988C9AC709F5 /* Pods-ForexWatchlistTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForexWatchlistTests.release.xcconfig"; path = "Target Support Files/Pods-ForexWatchlistTests/Pods-ForexWatchlistTests.release.xcconfig"; sourceTree = "<group>"; };
+		78B0B65F3113204DD69A89E3 /* Pods_ForexWatchlist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForexWatchlist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A0BF91D134BA12530DD3D6 /* Pods-ForexWatchlist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForexWatchlist.debug.xcconfig"; path = "Target Support Files/Pods-ForexWatchlist/Pods-ForexWatchlist.debug.xcconfig"; sourceTree = "<group>"; };
+		895BE6576DA1A60466FC3B27 /* Pods_ForexWatchlistTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForexWatchlistTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6039F9CA2847B5081C7A3CB /* Pods-ForexWatchlist-ForexWatchlistUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForexWatchlist-ForexWatchlistUITests.debug.xcconfig"; path = "Target Support Files/Pods-ForexWatchlist-ForexWatchlistUITests/Pods-ForexWatchlist-ForexWatchlistUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B23462E12544286900C6E225 /* WatchlistDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistDetailViewController.swift; sourceTree = "<group>"; };
+		B23462E925460E1100C6E225 /* ForexViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForexViewModel.swift; sourceTree = "<group>"; };
 		B2DFD12425416E59004EF9D2 /* ForexWatchlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForexWatchlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2DFD12725416E59004EF9D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2DFD12925416E59004EF9D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B2DFD12B25416E59004EF9D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B2DFD12E25416E59004EF9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2DFD13025416E5B004EF9D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2DFD13325416E5B004EF9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +67,16 @@
 		B2DFD14525416E5B004EF9D2 /* ForexWatchlistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForexWatchlistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2DFD14925416E5B004EF9D2 /* ForexWatchlistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForexWatchlistUITests.swift; sourceTree = "<group>"; };
 		B2DFD14B25416E5B004EF9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2DFD15725416FBA004EF9D2 /* WatchlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistViewController.swift; sourceTree = "<group>"; };
+		B2DFD15925428197004EF9D2 /* WatchlistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistTableViewCell.swift; sourceTree = "<group>"; };
+		B2DFD15B2542C9EA004EF9D2 /* WatchlistEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistEditViewController.swift; sourceTree = "<group>"; };
+		B2DFD15E2542CAEC004EF9D2 /* WatchlistEditTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistEditTableViewCell.swift; sourceTree = "<group>"; };
+		B2DFD1602542CEA3004EF9D2 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		B2DFD1622542F42C004EF9D2 /* Forex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Forex.swift; path = "../New Group/Forex.swift"; sourceTree = "<group>"; };
+		B2DFD1642542F67E004EF9D2 /* NetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
+		C0AE76A00E9655B63AD47D87 /* Pods-ForexWatchlist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForexWatchlist.release.xcconfig"; path = "Target Support Files/Pods-ForexWatchlist/Pods-ForexWatchlist.release.xcconfig"; sourceTree = "<group>"; };
+		C3608F231761D5124E768F9D /* Pods_ForexWatchlist_ForexWatchlistUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForexWatchlist_ForexWatchlistUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDC6F2B07D33AA5094366A7 /* Pods-ForexWatchlistTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForexWatchlistTests.debug.xcconfig"; path = "Target Support Files/Pods-ForexWatchlistTests/Pods-ForexWatchlistTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E10AF626D73C66B118FB7D5 /* Pods_ForexWatchlist.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				254D290BBD44C98DF4271571 /* Pods_ForexWatchlistTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +100,80 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AB0C8EEAF0BCBF1ACD95BBC /* Pods_ForexWatchlist_ForexWatchlistUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4617766A85B9162C5052FBBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78B0B65F3113204DD69A89E3 /* Pods_ForexWatchlist.framework */,
+				C3608F231761D5124E768F9D /* Pods_ForexWatchlist_ForexWatchlistUITests.framework */,
+				895BE6576DA1A60466FC3B27 /* Pods_ForexWatchlistTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A219BB9CA73AA99C0ABA6DF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81A0BF91D134BA12530DD3D6 /* Pods-ForexWatchlist.debug.xcconfig */,
+				C0AE76A00E9655B63AD47D87 /* Pods-ForexWatchlist.release.xcconfig */,
+				A6039F9CA2847B5081C7A3CB /* Pods-ForexWatchlist-ForexWatchlistUITests.debug.xcconfig */,
+				1E45522CD70FC8C0FDFA8F6A /* Pods-ForexWatchlist-ForexWatchlistUITests.release.xcconfig */,
+				DFDC6F2B07D33AA5094366A7 /* Pods-ForexWatchlistTests.debug.xcconfig */,
+				5433225DBED0988C9AC709F5 /* Pods-ForexWatchlistTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B23462E32544A05400C6E225 /* ViewContrller */ = {
+			isa = PBXGroup;
+			children = (
+				B2DFD15725416FBA004EF9D2 /* WatchlistViewController.swift */,
+				B23462E12544286900C6E225 /* WatchlistDetailViewController.swift */,
+				B2DFD15B2542C9EA004EF9D2 /* WatchlistEditViewController.swift */,
+			);
+			path = ViewContrller;
+			sourceTree = "<group>";
+		};
+		B23462E52544A08200C6E225 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2DFD1622542F42C004EF9D2 /* Forex.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B23462E62546082F00C6E225 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B23462E925460E1100C6E225 /* ForexViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B23462E7254608C700C6E225 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B2DFD1602542CEA3004EF9D2 /* AppConfig.swift */,
+				B2DFD1642542F67E004EF9D2 /* NetworkConfig.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B23462E82546097C00C6E225 /* TableView Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B2DFD15925428197004EF9D2 /* WatchlistTableViewCell.swift */,
+				B2DFD15E2542CAEC004EF9D2 /* WatchlistEditTableViewCell.swift */,
+			);
+			path = "TableView Cell";
+			sourceTree = "<group>";
+		};
 		B2DFD11B25416E59004EF9D2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +181,8 @@
 				B2DFD13D25416E5B004EF9D2 /* ForexWatchlistTests */,
 				B2DFD14825416E5B004EF9D2 /* ForexWatchlistUITests */,
 				B2DFD12525416E59004EF9D2 /* Products */,
+				A219BB9CA73AA99C0ABA6DF1 /* Pods */,
+				4617766A85B9162C5052FBBB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +201,11 @@
 			children = (
 				B2DFD12725416E59004EF9D2 /* AppDelegate.swift */,
 				B2DFD12925416E59004EF9D2 /* SceneDelegate.swift */,
-				B2DFD12B25416E59004EF9D2 /* ViewController.swift */,
+				B23462E32544A05400C6E225 /* ViewContrller */,
+				B23462E62546082F00C6E225 /* ViewModel */,
+				B23462E52544A08200C6E225 /* Model */,
+				B23462E82546097C00C6E225 /* TableView Cell */,
+				B23462E7254608C700C6E225 /* Helper */,
 				B2DFD12D25416E59004EF9D2 /* Main.storyboard */,
 				B2DFD13025416E5B004EF9D2 /* Assets.xcassets */,
 				B2DFD13225416E5B004EF9D2 /* LaunchScreen.storyboard */,
@@ -135,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2DFD14E25416E5B004EF9D2 /* Build configuration list for PBXNativeTarget "ForexWatchlist" */;
 			buildPhases = (
+				2E7C90B8BC5C6E619A0387AB /* [CP] Check Pods Manifest.lock */,
 				B2DFD12025416E59004EF9D2 /* Sources */,
 				B2DFD12125416E59004EF9D2 /* Frameworks */,
 				B2DFD12225416E59004EF9D2 /* Resources */,
+				D1EC261E3F74E7F7123561D5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2DFD15125416E5B004EF9D2 /* Build configuration list for PBXNativeTarget "ForexWatchlistTests" */;
 			buildPhases = (
+				B9CEC4F9ED9BB78C025BBBDF /* [CP] Check Pods Manifest.lock */,
 				B2DFD13625416E5B004EF9D2 /* Sources */,
 				B2DFD13725416E5B004EF9D2 /* Frameworks */,
 				B2DFD13825416E5B004EF9D2 /* Resources */,
@@ -170,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2DFD15425416E5B004EF9D2 /* Build configuration list for PBXNativeTarget "ForexWatchlistUITests" */;
 			buildPhases = (
+				2A2007F4F013008736B55C23 /* [CP] Check Pods Manifest.lock */,
 				B2DFD14125416E5B004EF9D2 /* Sources */,
 				B2DFD14225416E5B004EF9D2 /* Frameworks */,
 				B2DFD14325416E5B004EF9D2 /* Resources */,
+				01DD0F6C737EB5AF5A6066E4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,13 +363,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01DD0F6C737EB5AF5A6066E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ForexWatchlist-ForexWatchlistUITests/Pods-ForexWatchlist-ForexWatchlistUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ForexWatchlist-ForexWatchlistUITests/Pods-ForexWatchlist-ForexWatchlistUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ForexWatchlist-ForexWatchlistUITests/Pods-ForexWatchlist-ForexWatchlistUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A2007F4F013008736B55C23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ForexWatchlist-ForexWatchlistUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E7C90B8BC5C6E619A0387AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ForexWatchlist-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9CEC4F9ED9BB78C025BBBDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ForexWatchlistTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1EC261E3F74E7F7123561D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ForexWatchlist/Pods-ForexWatchlist-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ForexWatchlist/Pods-ForexWatchlist-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ForexWatchlist/Pods-ForexWatchlist-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B2DFD12025416E59004EF9D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2DFD12C25416E59004EF9D2 /* ViewController.swift in Sources */,
+				B2DFD15C2542C9EA004EF9D2 /* WatchlistEditViewController.swift in Sources */,
+				B23462EA25460E1100C6E225 /* ForexViewModel.swift in Sources */,
+				B2DFD1612542CEA3004EF9D2 /* AppConfig.swift in Sources */,
 				B2DFD12825416E59004EF9D2 /* AppDelegate.swift in Sources */,
+				B2DFD15825416FBA004EF9D2 /* WatchlistViewController.swift in Sources */,
+				B2DFD15A25428197004EF9D2 /* WatchlistTableViewCell.swift in Sources */,
+				B2DFD1652542F67E004EF9D2 /* NetworkConfig.swift in Sources */,
+				B2DFD15F2542CAEC004EF9D2 /* WatchlistEditTableViewCell.swift in Sources */,
+				B2DFD1632542F42C004EF9D2 /* Forex.swift in Sources */,
+				B23462E22544286900C6E225 /* WatchlistDetailViewController.swift in Sources */,
 				B2DFD12A25416E59004EF9D2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +652,7 @@
 		};
 		B2DFD14F25416E5B004EF9D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A0BF91D134BA12530DD3D6 /* Pods-ForexWatchlist.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +671,7 @@
 		};
 		B2DFD15025416E5B004EF9D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0AE76A00E9655B63AD47D87 /* Pods-ForexWatchlist.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +690,7 @@
 		};
 		B2DFD15225416E5B004EF9D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFDC6F2B07D33AA5094366A7 /* Pods-ForexWatchlistTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +713,7 @@
 		};
 		B2DFD15325416E5B004EF9D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5433225DBED0988C9AC709F5 /* Pods-ForexWatchlistTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +736,7 @@
 		};
 		B2DFD15525416E5B004EF9D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6039F9CA2847B5081C7A3CB /* Pods-ForexWatchlist-ForexWatchlistUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +757,7 @@
 		};
 		B2DFD15625416E5B004EF9D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E45522CD70FC8C0FDFA8F6A /* Pods-ForexWatchlist-ForexWatchlistUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

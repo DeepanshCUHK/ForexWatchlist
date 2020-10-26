@@ -1,0 +1,1238 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ObjectKeyIdentifiable"
+- "ObjectKeyIdentifable"
+- "RealmSubscribable"
+- "valuePublisher"
+- "valuePublisher"
+- "changesetPublisher"
+- "changesetPublisher"
+- "ObservationSubscription"
+- "Publishers"
+provides-nominal:
+- "10RealmSwift21ObjectKeyIdentifiableP"
+- "10RealmSwift0A12SubscribableP"
+- "10RealmSwift6ObjectC"
+- "10RealmSwift4ListC"
+- "10RealmSwift14LinkingObjectsV"
+- "10RealmSwift7ResultsV"
+- "10RealmSwift03AnyA10CollectionV"
+- "10RealmSwift23ObservationSubscriptionV"
+- "10RealmSwift10PublishersO"
+- "10RealmSwift10PublishersO0A10WillChangeV"
+- "10RealmSwift10PublishersO0A19WillChangeWithTokenC"
+- "10RealmSwift10PublishersO10WillChangeV"
+- "10RealmSwift10PublishersO19WillChangeWithTokenC"
+- "10RealmSwift10PublishersO5ValueV"
+- "10RealmSwift10PublishersO14ValueWithTokenC"
+- "10RealmSwift10PublishersO8HandoverV"
+- "10RealmSwift10PublishersO14MakeThreadSafeV"
+- "10RealmSwift10PublishersO16DeferredHandoverV"
+- "10RealmSwift10PublishersO15ObjectChangesetV"
+- "10RealmSwift10PublishersO24ObjectChangesetWithTokenC"
+- "10RealmSwift10PublishersO29MakeThreadSafeObjectChangesetV"
+- "10RealmSwift10PublishersO31DeferredHandoverObjectChangesetV"
+- "10RealmSwift10PublishersO19CollectionChangesetV"
+- "10RealmSwift10PublishersO28CollectionChangesetWithTokenC"
+- "10RealmSwift10PublishersO33MakeThreadSafeCollectionChangesetV"
+- "10RealmSwift10PublishersO35DeferredHandoverCollectionChangesetV"
+provides-member:
+- ["10RealmSwift21ObjectKeyIdentifiableP", ""]
+- ["10RealmSwift0A12SubscribableP", ""]
+- ["7Combine9PublisherP", ""]
+- ["10RealmSwift0A10CollectionP", ""]
+- ["10RealmSwift0A0V", ""]
+- ["10RealmSwift6ObjectC", ""]
+- ["10RealmSwift4ListC", ""]
+- ["10RealmSwift14LinkingObjectsV", ""]
+- ["10RealmSwift7ResultsV", ""]
+- ["10RealmSwift03AnyA10CollectionV", ""]
+- ["10RealmSwift23ObservationSubscriptionV", ""]
+- ["10RealmSwift10PublishersO", ""]
+- ["10RealmSwift10PublishersO0A10WillChangeV", ""]
+- ["10RealmSwift10PublishersO0A19WillChangeWithTokenC", ""]
+- ["10RealmSwift10PublishersO10WillChangeV", ""]
+- ["10RealmSwift10PublishersO19WillChangeWithTokenC", ""]
+- ["10RealmSwift10PublishersO5ValueV", ""]
+- ["10RealmSwift10PublishersO14ValueWithTokenC", ""]
+- ["10RealmSwift10PublishersO8HandoverV", ""]
+- ["10RealmSwift10PublishersO14MakeThreadSafeV", ""]
+- ["10RealmSwift10PublishersO16DeferredHandoverV", ""]
+- ["10RealmSwift10PublishersO15ObjectChangesetV", ""]
+- ["10RealmSwift10PublishersO24ObjectChangesetWithTokenC", ""]
+- ["10RealmSwift10PublishersO29MakeThreadSafeObjectChangesetV", ""]
+- ["10RealmSwift10PublishersO31DeferredHandoverObjectChangesetV", ""]
+- ["10RealmSwift10PublishersO19CollectionChangesetV", ""]
+- ["10RealmSwift10PublishersO28CollectionChangesetWithTokenC", ""]
+- ["10RealmSwift10PublishersO33MakeThreadSafeCollectionChangesetV", ""]
+- ["10RealmSwift10PublishersO35DeferredHandoverCollectionChangesetV", ""]
+- ["10RealmSwift21ObjectKeyIdentifiableP", "id"]
+- ["7Combine9PublisherP", "freeze"]
+- ["7Combine9PublisherP", "freeze"]
+- ["7Combine9PublisherP", "freeze"]
+- ["7Combine9PublisherP", "threadSafeReference"]
+- ["7Combine9PublisherP", "threadSafeReference"]
+- ["7Combine9PublisherP", "threadSafeReference"]
+- ["10RealmSwift0A10CollectionP", "objectWillChange"]
+- ["10RealmSwift0A10CollectionP", "publisher"]
+- ["10RealmSwift0A10CollectionP", "collectionPublisher"]
+- ["10RealmSwift0A10CollectionP", "changesetPublisher"]
+- ["10RealmSwift0A0V", "objectWillChange"]
+- ["10RealmSwift0A10CollectionP", "_observe"]
+- ["10RealmSwift0A10CollectionP", "_observe"]
+provides-dynamic-lookup:
+- "_observe"
+- "objectWillChange"
+depends-top-level:
+- !private "!"
+- !private "!="
+- "AnyRealmCollection"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Combine"
+- "CombineIdentifier"
+- "DispatchQueue"
+- "Error"
+- !private "FloatLiteralType"
+- "Identifiable"
+- "Int"
+- !private "IntegerLiteralType"
+- "LinkingObjects"
+- "List"
+- "Never"
+- "NotificationToken"
+- "Object"
+- "ObjectChange"
+- "ObjectKeyIdentifable"
+- "ObjectKeyIdentifiable"
+- "ObservableObject"
+- "ObservationSubscription"
+- "PropertyChange"
+- "Publisher"
+- "Publishers"
+- !private "RLMObjectBaseGetCombineId"
+- !private "RLMRealm"
+- "RLMRealmConfiguration"
+- "Realm"
+- "RealmCollection"
+- "RealmCollectionChange"
+- "RealmSubscribable"
+- "Results"
+- "Scheduler"
+- "Self"
+- !private "StringLiteralType"
+- "Subscriber"
+- "Subscribers"
+- "Subscription"
+- "ThreadConfined"
+- "ThreadSafeReference"
+- "UInt64"
+- "Void"
+- "WritableKeyPath"
+- "changesetPublisher"
+- !private "fatalError"
+- !private "precondition"
+- "valuePublisher"
+depends-member:
+- ["10RealmSwift03AnyA10CollectionV", "_observe"]
+- ["10RealmSwift03AnyA10CollectionV", "deinit"]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", "ObjectWillChangePublisher"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "Publishers"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "RLMObjectBaseGetCombineId"]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", "_Default_ObjectWillChangePublisher"]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", "_observe"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "freeze"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "isInvalidated"]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", "objectWillChange"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "observe"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "realm"]
+- ["SK", "DispatchQueue"]
+- ["SK", "Error"]
+- ["SK", "Never"]
+- ["SK", "NotificationToken"]
+- ["SK", "ObjectWillChangePublisher"]
+- ["SK", "Publishers"]
+- ["SK", "RealmSubscribable"]
+- ["SK", "Subscriber"]
+- ["SK", "Void"]
+- ["SK", "_Default_ObjectWillChangePublisher"]
+- ["SK", "_observe"]
+- !private ["SK", "freeze"]
+- ["SK", "objectWillChange"]
+- !private ["SK", "observe"]
+- !private ["SK", "realm"]
+- ["s7CVarArgP", "ObjectWillChangePublisher"]
+- !private ["s7CVarArgP", "Publishers"]
+- !private ["s7CVarArgP", "RLMObjectBaseGetCombineId"]
+- ["s7CVarArgP", "_Default_ObjectWillChangePublisher"]
+- ["s7CVarArgP", "_observe"]
+- !private ["s7CVarArgP", "configuration"]
+- !private ["s7CVarArgP", "freeze"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "invalidate"]
+- !private ["s7CVarArgP", "isInvalidated"]
+- ["s7CVarArgP", "objectWillChange"]
+- !private ["s7CVarArgP", "observe"]
+- !private ["s7CVarArgP", "realm"]
+- !private ["7Combine11CancellableP", "CombineIdentifier"]
+- ["7Combine11CancellableP", ""]
+- ["7Combine11CancellableP", "cancel"]
+- ["7Combine11CancellableP", "combineIdentifier"]
+- !private ["7Combine11CancellableP", "init"]
+- ["7Combine11CancellableP", "request"]
+- !private ["7Combine11CancellableP", "token"]
+- ["Sl", "DispatchQueue"]
+- ["Sl", "Error"]
+- ["Sl", "Never"]
+- ["Sl", "NotificationToken"]
+- ["Sl", "ObjectWillChangePublisher"]
+- ["Sl", "Publishers"]
+- ["Sl", "RealmSubscribable"]
+- ["Sl", "Subscriber"]
+- ["Sl", "Void"]
+- ["Sl", "_Default_ObjectWillChangePublisher"]
+- ["Sl", "_observe"]
+- !private ["Sl", "freeze"]
+- ["Sl", "objectWillChange"]
+- !private ["Sl", "observe"]
+- !private ["Sl", "realm"]
+- ["10RealmSwift10PublishersO19CollectionChangesetV", "CollectionChangeset"]
+- ["10RealmSwift10PublishersO19CollectionChangesetV", "CollectionChangesetWithToken"]
+- ["10RealmSwift10PublishersO19CollectionChangesetV", "DeferredHandoverCollectionChangeset"]
+- ["10RealmSwift10PublishersO19CollectionChangesetV", "DispatchQueue"]
+- ["10RealmSwift10PublishersO19CollectionChangesetV", "Failure"]
+- ["10RealmSwift10PublishersO19CollectionChangesetV", "Never"]
+- ["10RealmSwift10PublishersO19CollectionChangesetV", "NotificationToken"]
+- !private ["10RealmSwift10PublishersO19CollectionChangesetV", "ObservationSubscription"]
+- ["10RealmSwift10PublishersO19CollectionChangesetV", "Output"]
+- ["10RealmSwift10PublishersO19CollectionChangesetV", "RealmCollectionChange"]
+- ["10RealmSwift10PublishersO19CollectionChangesetV", "Scheduler"]
+- ["10RealmSwift10PublishersO19CollectionChangesetV", "Self"]
+- ["10RealmSwift10PublishersO19CollectionChangesetV", "Subscriber"]
+- ["10RealmSwift10PublishersO19CollectionChangesetV", "WritableKeyPath"]
+- !private ["10RealmSwift10PublishersO19CollectionChangesetV", "collection"]
+- ["10RealmSwift10PublishersO19CollectionChangesetV", "deinit"]
+- !private ["10RealmSwift10PublishersO19CollectionChangesetV", "fatalError"]
+- ["10RealmSwift10PublishersO19CollectionChangesetV", "init"]
+- !private ["10RealmSwift10PublishersO19CollectionChangesetV", "precondition"]
+- !private ["10RealmSwift10PublishersO19CollectionChangesetV", "queue"]
+- ["10RealmSwift10PublishersO19CollectionChangesetV", "receive"]
+- ["10RealmSwift10PublishersO19CollectionChangesetV", "saveToken"]
+- ["10RealmSwift10PublishersO19CollectionChangesetV", "subscribe"]
+- ["10RealmSwift10PublishersO28CollectionChangesetWithTokenC", "CollectionChangesetWithToken"]
+- ["10RealmSwift10PublishersO28CollectionChangesetWithTokenC", "DeferredHandoverCollectionChangeset"]
+- ["10RealmSwift10PublishersO28CollectionChangesetWithTokenC", "DispatchQueue"]
+- ["10RealmSwift10PublishersO28CollectionChangesetWithTokenC", "Failure"]
+- ["10RealmSwift10PublishersO28CollectionChangesetWithTokenC", "Never"]
+- ["10RealmSwift10PublishersO28CollectionChangesetWithTokenC", "NotificationToken"]
+- !private ["10RealmSwift10PublishersO28CollectionChangesetWithTokenC", "ObservationSubscription"]
+- ["10RealmSwift10PublishersO28CollectionChangesetWithTokenC", "Output"]
+- ["10RealmSwift10PublishersO28CollectionChangesetWithTokenC", "RealmCollectionChange"]
+- ["10RealmSwift10PublishersO28CollectionChangesetWithTokenC", "Scheduler"]
+- ["10RealmSwift10PublishersO28CollectionChangesetWithTokenC", "Subscriber"]
+- ["10RealmSwift10PublishersO28CollectionChangesetWithTokenC", "TokenKeyPath"]
+- ["10RealmSwift10PublishersO28CollectionChangesetWithTokenC", "TokenParent"]
+- ["10RealmSwift10PublishersO28CollectionChangesetWithTokenC", "WritableKeyPath"]
+- !private ["10RealmSwift10PublishersO28CollectionChangesetWithTokenC", "collection"]
+- ["10RealmSwift10PublishersO28CollectionChangesetWithTokenC", "deinit"]
+- !private ["10RealmSwift10PublishersO28CollectionChangesetWithTokenC", "fatalError"]
+- ["10RealmSwift10PublishersO28CollectionChangesetWithTokenC", "init"]
+- !private ["10RealmSwift10PublishersO28CollectionChangesetWithTokenC", "precondition"]
+- !private ["10RealmSwift10PublishersO28CollectionChangesetWithTokenC", "queue"]
+- ["10RealmSwift10PublishersO28CollectionChangesetWithTokenC", "receive"]
+- ["10RealmSwift10PublishersO28CollectionChangesetWithTokenC", "subscribe"]
+- !private ["10RealmSwift10PublishersO28CollectionChangesetWithTokenC", "tokenKeyPath"]
+- !private ["10RealmSwift10PublishersO28CollectionChangesetWithTokenC", "tokenParent"]
+- !private ["7Combine0A10IdentifierV", "init"]
+- !private ["7Combine10PublishersO10CompactMapV", "receive"]
+- !private ["7Combine11SubscribersO10CompletionO", "failure"]
+- !private ["7Combine11SubscribersO10CompletionO", "finished"]
+- !private ["7Combine06CustomA21IdentifierConvertibleP", "CombineIdentifier"]
+- ["7Combine06CustomA21IdentifierConvertibleP", ""]
+- ["7Combine06CustomA21IdentifierConvertibleP", "cancel"]
+- ["7Combine06CustomA21IdentifierConvertibleP", "combineIdentifier"]
+- !private ["7Combine06CustomA21IdentifierConvertibleP", "init"]
+- !private ["7Combine06CustomA21IdentifierConvertibleP", "receive"]
+- ["7Combine06CustomA21IdentifierConvertibleP", "request"]
+- !private ["7Combine06CustomA21IdentifierConvertibleP", "token"]
+- ["s28CustomDebugStringConvertibleP", "ObjectWillChangePublisher"]
+- !private ["s28CustomDebugStringConvertibleP", "Publishers"]
+- !private ["s28CustomDebugStringConvertibleP", "RLMObjectBaseGetCombineId"]
+- ["s28CustomDebugStringConvertibleP", "_Default_ObjectWillChangePublisher"]
+- ["s28CustomDebugStringConvertibleP", "_observe"]
+- !private ["s28CustomDebugStringConvertibleP", "change"]
+- !private ["s28CustomDebugStringConvertibleP", "configuration"]
+- !private ["s28CustomDebugStringConvertibleP", "freeze"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initial"]
+- !private ["s28CustomDebugStringConvertibleP", "invalidate"]
+- !private ["s28CustomDebugStringConvertibleP", "isInvalidated"]
+- ["s28CustomDebugStringConvertibleP", "objectWillChange"]
+- !private ["s28CustomDebugStringConvertibleP", "observe"]
+- !private ["s28CustomDebugStringConvertibleP", "realm"]
+- !private ["s28CustomDebugStringConvertibleP", "update"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "change"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "initial"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "update"]
+- !private ["s17CustomReflectableP", "change"]
+- !private ["s17CustomReflectableP", "initial"]
+- !private ["s17CustomReflectableP", "update"]
+- ["s23CustomStringConvertibleP", "DispatchQueue"]
+- ["s23CustomStringConvertibleP", "Error"]
+- ["s23CustomStringConvertibleP", "Never"]
+- ["s23CustomStringConvertibleP", "NotificationToken"]
+- ["s23CustomStringConvertibleP", "ObjectWillChangePublisher"]
+- ["s23CustomStringConvertibleP", "Publishers"]
+- !private ["s23CustomStringConvertibleP", "RLMObjectBaseGetCombineId"]
+- ["s23CustomStringConvertibleP", "RealmSubscribable"]
+- ["s23CustomStringConvertibleP", "Subscriber"]
+- ["s23CustomStringConvertibleP", "Void"]
+- ["s23CustomStringConvertibleP", "_Default_ObjectWillChangePublisher"]
+- ["s23CustomStringConvertibleP", "_observe"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "configuration"]
+- !private ["s23CustomStringConvertibleP", "freeze"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "invalidate"]
+- !private ["s23CustomStringConvertibleP", "isInvalidated"]
+- ["s23CustomStringConvertibleP", "objectWillChange"]
+- !private ["s23CustomStringConvertibleP", "observe"]
+- !private ["s23CustomStringConvertibleP", "realm"]
+- ["Se", "ObjectWillChangePublisher"]
+- !private ["Se", "Publishers"]
+- ["Se", "_Default_ObjectWillChangePublisher"]
+- ["Se", "_observe"]
+- !private ["Se", "change"]
+- !private ["Se", "failure"]
+- !private ["Se", "finished"]
+- !private ["Se", "initial"]
+- ["Se", "objectWillChange"]
+- !private ["Se", "update"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["10RealmSwift10PublishersO16DeferredHandoverV", "Failure"]
+- !private ["10RealmSwift10PublishersO16DeferredHandoverV", "Handover"]
+- ["10RealmSwift10PublishersO16DeferredHandoverV", "Output"]
+- ["10RealmSwift10PublishersO16DeferredHandoverV", "RLMRealmConfiguration"]
+- ["10RealmSwift10PublishersO16DeferredHandoverV", "Subscriber"]
+- ["10RealmSwift10PublishersO16DeferredHandoverV", "ThreadSafeReference"]
+- ["10RealmSwift10PublishersO16DeferredHandoverV", "deinit"]
+- ["10RealmSwift10PublishersO16DeferredHandoverV", "init"]
+- !private ["10RealmSwift10PublishersO16DeferredHandoverV", "realm"]
+- ["10RealmSwift10PublishersO16DeferredHandoverV", "receive"]
+- !private ["10RealmSwift10PublishersO16DeferredHandoverV", "scheduler"]
+- !private ["10RealmSwift10PublishersO16DeferredHandoverV", "upstream"]
+- ["10RealmSwift10PublishersO35DeferredHandoverCollectionChangesetV", "Failure"]
+- !private ["10RealmSwift10PublishersO35DeferredHandoverCollectionChangesetV", "Handover"]
+- ["10RealmSwift10PublishersO35DeferredHandoverCollectionChangesetV", "Int"]
+- ["10RealmSwift10PublishersO35DeferredHandoverCollectionChangesetV", "Output"]
+- ["10RealmSwift10PublishersO35DeferredHandoverCollectionChangesetV", "RLMRealmConfiguration"]
+- ["10RealmSwift10PublishersO35DeferredHandoverCollectionChangesetV", "RealmCollectionChange"]
+- ["10RealmSwift10PublishersO35DeferredHandoverCollectionChangesetV", "Subscriber"]
+- ["10RealmSwift10PublishersO35DeferredHandoverCollectionChangesetV", "ThreadSafeReference"]
+- ["10RealmSwift10PublishersO35DeferredHandoverCollectionChangesetV", "deinit"]
+- ["10RealmSwift10PublishersO35DeferredHandoverCollectionChangesetV", "init"]
+- !private ["10RealmSwift10PublishersO35DeferredHandoverCollectionChangesetV", "realm"]
+- ["10RealmSwift10PublishersO35DeferredHandoverCollectionChangesetV", "receive"]
+- !private ["10RealmSwift10PublishersO35DeferredHandoverCollectionChangesetV", "scheduler"]
+- !private ["10RealmSwift10PublishersO35DeferredHandoverCollectionChangesetV", "upstream"]
+- ["10RealmSwift10PublishersO31DeferredHandoverObjectChangesetV", "Failure"]
+- !private ["10RealmSwift10PublishersO31DeferredHandoverObjectChangesetV", "Handover"]
+- ["10RealmSwift10PublishersO31DeferredHandoverObjectChangesetV", "ObjectChange"]
+- ["10RealmSwift10PublishersO31DeferredHandoverObjectChangesetV", "Output"]
+- ["10RealmSwift10PublishersO31DeferredHandoverObjectChangesetV", "PropertyChange"]
+- ["10RealmSwift10PublishersO31DeferredHandoverObjectChangesetV", "RLMRealmConfiguration"]
+- ["10RealmSwift10PublishersO31DeferredHandoverObjectChangesetV", "Subscriber"]
+- ["10RealmSwift10PublishersO31DeferredHandoverObjectChangesetV", "ThreadSafeReference"]
+- ["10RealmSwift10PublishersO31DeferredHandoverObjectChangesetV", "deinit"]
+- ["10RealmSwift10PublishersO31DeferredHandoverObjectChangesetV", "init"]
+- !private ["10RealmSwift10PublishersO31DeferredHandoverObjectChangesetV", "realm"]
+- ["10RealmSwift10PublishersO31DeferredHandoverObjectChangesetV", "receive"]
+- !private ["10RealmSwift10PublishersO31DeferredHandoverObjectChangesetV", "scheduler"]
+- !private ["10RealmSwift10PublishersO31DeferredHandoverObjectChangesetV", "upstream"]
+- ["SE", "ObjectWillChangePublisher"]
+- !private ["SE", "Publishers"]
+- ["SE", "_Default_ObjectWillChangePublisher"]
+- ["SE", "_observe"]
+- !private ["SE", "change"]
+- !private ["SE", "failure"]
+- !private ["SE", "finished"]
+- !private ["SE", "initial"]
+- ["SE", "objectWillChange"]
+- !private ["SE", "update"]
+- ["SQ", "ObjectWillChangePublisher"]
+- !private ["SQ", "Publishers"]
+- !private ["SQ", "RLMObjectBaseGetCombineId"]
+- ["SQ", "_Default_ObjectWillChangePublisher"]
+- ["SQ", "_observe"]
+- !private ["SQ", "change"]
+- !private ["SQ", "configuration"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "finished"]
+- !private ["SQ", "freeze"]
+- !private ["SQ", "init"]
+- !private ["SQ", "initial"]
+- !private ["SQ", "invalidate"]
+- !private ["SQ", "isFrozen"]
+- !private ["SQ", "isInvalidated"]
+- ["SQ", "objectWillChange"]
+- !private ["SQ", "observe"]
+- !private ["SQ", "realm"]
+- !private ["SQ", "resolve"]
+- !private ["SQ", "rlmRealm"]
+- !private ["SQ", "update"]
+- !private ["s23ExpressibleByNilLiteralP", "change"]
+- !private ["s23ExpressibleByNilLiteralP", "initial"]
+- !private ["s23ExpressibleByNilLiteralP", "update"]
+- ["10RealmSwift10PublishersO8HandoverV", "Failure"]
+- ["10RealmSwift10PublishersO8HandoverV", "Output"]
+- ["10RealmSwift10PublishersO8HandoverV", "RLMRealmConfiguration"]
+- ["10RealmSwift10PublishersO8HandoverV", "Realm"]
+- ["10RealmSwift10PublishersO8HandoverV", "Subscriber"]
+- !private ["10RealmSwift10PublishersO8HandoverV", "ThreadSafeReference"]
+- !private ["10RealmSwift10PublishersO8HandoverV", "config"]
+- ["10RealmSwift10PublishersO8HandoverV", "deinit"]
+- ["10RealmSwift10PublishersO8HandoverV", "init"]
+- !private ["10RealmSwift10PublishersO8HandoverV", "realm"]
+- ["10RealmSwift10PublishersO8HandoverV", "receive"]
+- !private ["10RealmSwift10PublishersO8HandoverV", "scheduler"]
+- !private ["10RealmSwift10PublishersO8HandoverV", "upstream"]
+- ["SH", "ObjectWillChangePublisher"]
+- !private ["SH", "Publishers"]
+- !private ["SH", "RLMObjectBaseGetCombineId"]
+- ["SH", "_Default_ObjectWillChangePublisher"]
+- ["SH", "_observe"]
+- !private ["SH", "change"]
+- !private ["SH", "configuration"]
+- !private ["SH", "failure"]
+- !private ["SH", "finished"]
+- !private ["SH", "freeze"]
+- !private ["SH", "init"]
+- !private ["SH", "initial"]
+- !private ["SH", "invalidate"]
+- !private ["SH", "isInvalidated"]
+- ["SH", "objectWillChange"]
+- !private ["SH", "observe"]
+- !private ["SH", "realm"]
+- !private ["SH", "update"]
+- !private ["s12IdentifiableP", "RLMObjectBaseGetCombineId"]
+- ["s12IdentifiableP", "UInt64"]
+- ["s12IdentifiableP", ""]
+- ["s12IdentifiableP", "id"]
+- ["s22LazyCollectionProtocolP", "DispatchQueue"]
+- ["s22LazyCollectionProtocolP", "Error"]
+- ["s22LazyCollectionProtocolP", "Never"]
+- ["s22LazyCollectionProtocolP", "NotificationToken"]
+- ["s22LazyCollectionProtocolP", "ObjectWillChangePublisher"]
+- ["s22LazyCollectionProtocolP", "Publishers"]
+- ["s22LazyCollectionProtocolP", "RealmSubscribable"]
+- ["s22LazyCollectionProtocolP", "Subscriber"]
+- ["s22LazyCollectionProtocolP", "Void"]
+- ["s22LazyCollectionProtocolP", "_Default_ObjectWillChangePublisher"]
+- ["s22LazyCollectionProtocolP", "_observe"]
+- !private ["s22LazyCollectionProtocolP", "freeze"]
+- ["s22LazyCollectionProtocolP", "objectWillChange"]
+- !private ["s22LazyCollectionProtocolP", "observe"]
+- !private ["s22LazyCollectionProtocolP", "realm"]
+- ["s20LazySequenceProtocolP", "DispatchQueue"]
+- ["s20LazySequenceProtocolP", "Error"]
+- ["s20LazySequenceProtocolP", "Never"]
+- ["s20LazySequenceProtocolP", "NotificationToken"]
+- ["s20LazySequenceProtocolP", "ObjectWillChangePublisher"]
+- ["s20LazySequenceProtocolP", "Publishers"]
+- ["s20LazySequenceProtocolP", "RealmSubscribable"]
+- ["s20LazySequenceProtocolP", "Subscriber"]
+- ["s20LazySequenceProtocolP", "Void"]
+- ["s20LazySequenceProtocolP", "_Default_ObjectWillChangePublisher"]
+- ["s20LazySequenceProtocolP", "_observe"]
+- !private ["s20LazySequenceProtocolP", "freeze"]
+- ["s20LazySequenceProtocolP", "objectWillChange"]
+- !private ["s20LazySequenceProtocolP", "observe"]
+- !private ["s20LazySequenceProtocolP", "realm"]
+- ["10RealmSwift14LinkingObjectsV", "LinkingObjects"]
+- ["10RealmSwift14LinkingObjectsV", "Publishers"]
+- ["10RealmSwift14LinkingObjectsV", "_observe"]
+- ["10RealmSwift14LinkingObjectsV", "deinit"]
+- ["10RealmSwift14LinkingObjectsV", "objectWillChange"]
+- ["10RealmSwift4ListC", "List"]
+- ["10RealmSwift4ListC", "ObjectWillChangePublisher"]
+- ["10RealmSwift4ListC", "Publishers"]
+- ["10RealmSwift4ListC", "_Default_ObjectWillChangePublisher"]
+- ["10RealmSwift4ListC", "_observe"]
+- ["10RealmSwift4ListC", "deinit"]
+- ["10RealmSwift4ListC", "objectWillChange"]
+- ["10RealmSwift8ListBaseC", "List"]
+- ["10RealmSwift8ListBaseC", "ObjectWillChangePublisher"]
+- ["10RealmSwift8ListBaseC", "Publishers"]
+- ["10RealmSwift8ListBaseC", "_Default_ObjectWillChangePublisher"]
+- ["10RealmSwift8ListBaseC", "_observe"]
+- ["10RealmSwift8ListBaseC", "objectWillChange"]
+- ["10RealmSwift10PublishersO14MakeThreadSafeV", "DeferredHandover"]
+- ["10RealmSwift10PublishersO14MakeThreadSafeV", "Failure"]
+- ["10RealmSwift10PublishersO14MakeThreadSafeV", "Output"]
+- ["10RealmSwift10PublishersO14MakeThreadSafeV", "Scheduler"]
+- ["10RealmSwift10PublishersO14MakeThreadSafeV", "Subscriber"]
+- ["10RealmSwift10PublishersO14MakeThreadSafeV", "deinit"]
+- ["10RealmSwift10PublishersO14MakeThreadSafeV", "init"]
+- ["10RealmSwift10PublishersO14MakeThreadSafeV", "receive"]
+- !private ["10RealmSwift10PublishersO14MakeThreadSafeV", "upstream"]
+- ["10RealmSwift10PublishersO33MakeThreadSafeCollectionChangesetV", "DeferredHandoverCollectionChangeset"]
+- ["10RealmSwift10PublishersO33MakeThreadSafeCollectionChangesetV", "Failure"]
+- ["10RealmSwift10PublishersO33MakeThreadSafeCollectionChangesetV", "Output"]
+- ["10RealmSwift10PublishersO33MakeThreadSafeCollectionChangesetV", "Scheduler"]
+- ["10RealmSwift10PublishersO33MakeThreadSafeCollectionChangesetV", "Subscriber"]
+- ["10RealmSwift10PublishersO33MakeThreadSafeCollectionChangesetV", "deinit"]
+- ["10RealmSwift10PublishersO33MakeThreadSafeCollectionChangesetV", "init"]
+- ["10RealmSwift10PublishersO33MakeThreadSafeCollectionChangesetV", "receive"]
+- !private ["10RealmSwift10PublishersO33MakeThreadSafeCollectionChangesetV", "upstream"]
+- ["10RealmSwift10PublishersO29MakeThreadSafeObjectChangesetV", "DeferredHandoverObjectChangeset"]
+- ["10RealmSwift10PublishersO29MakeThreadSafeObjectChangesetV", "Failure"]
+- ["10RealmSwift10PublishersO29MakeThreadSafeObjectChangesetV", "Output"]
+- ["10RealmSwift10PublishersO29MakeThreadSafeObjectChangesetV", "Scheduler"]
+- ["10RealmSwift10PublishersO29MakeThreadSafeObjectChangesetV", "Subscriber"]
+- ["10RealmSwift10PublishersO29MakeThreadSafeObjectChangesetV", "deinit"]
+- ["10RealmSwift10PublishersO29MakeThreadSafeObjectChangesetV", "init"]
+- ["10RealmSwift10PublishersO29MakeThreadSafeObjectChangesetV", "receive"]
+- !private ["10RealmSwift10PublishersO29MakeThreadSafeObjectChangesetV", "upstream"]
+- !private ["7Combine10PublishersO3MapV", "receive"]
+- ["SM", "ObjectWillChangePublisher"]
+- !private ["SM", "Publishers"]
+- ["SM", "_Default_ObjectWillChangePublisher"]
+- ["SM", "_observe"]
+- ["SM", "objectWillChange"]
+- ["So17NSFastEnumerationP", "ObjectWillChangePublisher"]
+- !private ["So17NSFastEnumerationP", "Publishers"]
+- ["So17NSFastEnumerationP", "_Default_ObjectWillChangePublisher"]
+- ["So17NSFastEnumerationP", "_observe"]
+- ["So17NSFastEnumerationP", "objectWillChange"]
+- ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "List"]
+- ["So8NSObjectC", "Never"]
+- ["So8NSObjectC", "NotificationToken"]
+- ["So8NSObjectC", "Object"]
+- !private ["So8NSObjectC", "ObjectChange"]
+- ["So8NSObjectC", "ObjectWillChangePublisher"]
+- ["So8NSObjectC", "Publishers"]
+- !private ["So8NSObjectC", "RLMObjectBaseGetCombineId"]
+- ["So8NSObjectC", "Subscriber"]
+- ["So8NSObjectC", "UInt64"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", "_Default_ObjectWillChangePublisher"]
+- ["So8NSObjectC", "_observe"]
+- !private ["So8NSObjectC", "configuration"]
+- !private ["So8NSObjectC", "freeze"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "invalidate"]
+- !private ["So8NSObjectC", "isInvalidated"]
+- ["So8NSObjectC", "objectWillChange"]
+- !private ["So8NSObjectC", "observe"]
+- !private ["So8NSObjectC", "realm"]
+- ["So8NSObjectP", "ObjectWillChangePublisher"]
+- !private ["So8NSObjectP", "Publishers"]
+- !private ["So8NSObjectP", "RLMObjectBaseGetCombineId"]
+- ["So8NSObjectP", "_Default_ObjectWillChangePublisher"]
+- ["So8NSObjectP", "_observe"]
+- !private ["So8NSObjectP", "configuration"]
+- !private ["So8NSObjectP", "freeze"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "invalidate"]
+- !private ["So8NSObjectP", "isInvalidated"]
+- ["So8NSObjectP", "objectWillChange"]
+- !private ["So8NSObjectP", "observe"]
+- !private ["So8NSObjectP", "realm"]
+- ["10RealmSwift6ObjectC", "DispatchQueue"]
+- ["10RealmSwift6ObjectC", "Error"]
+- ["10RealmSwift6ObjectC", "Never"]
+- ["10RealmSwift6ObjectC", "NotificationToken"]
+- ["10RealmSwift6ObjectC", "Object"]
+- !private ["10RealmSwift6ObjectC", "ObjectChange"]
+- ["10RealmSwift6ObjectC", "ObjectWillChangePublisher"]
+- ["10RealmSwift6ObjectC", "Publishers"]
+- !private ["10RealmSwift6ObjectC", "RLMObjectBaseGetCombineId"]
+- ["10RealmSwift6ObjectC", "Subscriber"]
+- ["10RealmSwift6ObjectC", "UInt64"]
+- ["10RealmSwift6ObjectC", "Void"]
+- ["10RealmSwift6ObjectC", "_Default_ObjectWillChangePublisher"]
+- ["10RealmSwift6ObjectC", "_observe"]
+- ["10RealmSwift6ObjectC", "deinit"]
+- !private ["10RealmSwift6ObjectC", "freeze"]
+- !private ["10RealmSwift6ObjectC", "isInvalidated"]
+- ["10RealmSwift6ObjectC", "objectWillChange"]
+- !private ["10RealmSwift6ObjectC", "observe"]
+- !private ["10RealmSwift6ObjectC", "realm"]
+- !private ["10RealmSwift12ObjectChangeO", "change"]
+- !private ["10RealmSwift12ObjectChangeO", "deleted"]
+- !private ["10RealmSwift12ObjectChangeO", "error"]
+- ["10RealmSwift10PublishersO15ObjectChangesetV", "DeferredHandoverObjectChangeset"]
+- ["10RealmSwift10PublishersO15ObjectChangesetV", "DispatchQueue"]
+- ["10RealmSwift10PublishersO15ObjectChangesetV", "Failure"]
+- ["10RealmSwift10PublishersO15ObjectChangesetV", "Never"]
+- ["10RealmSwift10PublishersO15ObjectChangesetV", "NotificationToken"]
+- ["10RealmSwift10PublishersO15ObjectChangesetV", "ObjectChange"]
+- ["10RealmSwift10PublishersO15ObjectChangesetV", "ObjectChangeset"]
+- ["10RealmSwift10PublishersO15ObjectChangesetV", "ObjectChangesetWithToken"]
+- !private ["10RealmSwift10PublishersO15ObjectChangesetV", "ObservationSubscription"]
+- ["10RealmSwift10PublishersO15ObjectChangesetV", "Output"]
+- ["10RealmSwift10PublishersO15ObjectChangesetV", "Scheduler"]
+- ["10RealmSwift10PublishersO15ObjectChangesetV", "Self"]
+- ["10RealmSwift10PublishersO15ObjectChangesetV", "Subscriber"]
+- ["10RealmSwift10PublishersO15ObjectChangesetV", "WritableKeyPath"]
+- ["10RealmSwift10PublishersO15ObjectChangesetV", "deinit"]
+- !private ["10RealmSwift10PublishersO15ObjectChangesetV", "fatalError"]
+- ["10RealmSwift10PublishersO15ObjectChangesetV", "init"]
+- !private ["10RealmSwift10PublishersO15ObjectChangesetV", "object"]
+- !private ["10RealmSwift10PublishersO15ObjectChangesetV", "precondition"]
+- !private ["10RealmSwift10PublishersO15ObjectChangesetV", "queue"]
+- ["10RealmSwift10PublishersO15ObjectChangesetV", "receive"]
+- ["10RealmSwift10PublishersO15ObjectChangesetV", "saveToken"]
+- ["10RealmSwift10PublishersO15ObjectChangesetV", "subscribe"]
+- ["10RealmSwift10PublishersO24ObjectChangesetWithTokenC", "DeferredHandoverObjectChangeset"]
+- ["10RealmSwift10PublishersO24ObjectChangesetWithTokenC", "DispatchQueue"]
+- ["10RealmSwift10PublishersO24ObjectChangesetWithTokenC", "Failure"]
+- ["10RealmSwift10PublishersO24ObjectChangesetWithTokenC", "Never"]
+- ["10RealmSwift10PublishersO24ObjectChangesetWithTokenC", "NotificationToken"]
+- ["10RealmSwift10PublishersO24ObjectChangesetWithTokenC", "ObjectChange"]
+- ["10RealmSwift10PublishersO24ObjectChangesetWithTokenC", "ObjectChangesetWithToken"]
+- !private ["10RealmSwift10PublishersO24ObjectChangesetWithTokenC", "ObservationSubscription"]
+- ["10RealmSwift10PublishersO24ObjectChangesetWithTokenC", "Output"]
+- ["10RealmSwift10PublishersO24ObjectChangesetWithTokenC", "Scheduler"]
+- ["10RealmSwift10PublishersO24ObjectChangesetWithTokenC", "Subscriber"]
+- ["10RealmSwift10PublishersO24ObjectChangesetWithTokenC", "TokenKeyPath"]
+- ["10RealmSwift10PublishersO24ObjectChangesetWithTokenC", "TokenParent"]
+- ["10RealmSwift10PublishersO24ObjectChangesetWithTokenC", "WritableKeyPath"]
+- ["10RealmSwift10PublishersO24ObjectChangesetWithTokenC", "deinit"]
+- !private ["10RealmSwift10PublishersO24ObjectChangesetWithTokenC", "fatalError"]
+- ["10RealmSwift10PublishersO24ObjectChangesetWithTokenC", "init"]
+- !private ["10RealmSwift10PublishersO24ObjectChangesetWithTokenC", "object"]
+- !private ["10RealmSwift10PublishersO24ObjectChangesetWithTokenC", "precondition"]
+- !private ["10RealmSwift10PublishersO24ObjectChangesetWithTokenC", "queue"]
+- ["10RealmSwift10PublishersO24ObjectChangesetWithTokenC", "receive"]
+- ["10RealmSwift10PublishersO24ObjectChangesetWithTokenC", "subscribe"]
+- !private ["10RealmSwift10PublishersO24ObjectChangesetWithTokenC", "tokenKeyPath"]
+- !private ["10RealmSwift10PublishersO24ObjectChangesetWithTokenC", "tokenParent"]
+- !private ["10RealmSwift21ObjectKeyIdentifiableP", "RLMObjectBaseGetCombineId"]
+- ["10RealmSwift21ObjectKeyIdentifiableP", "UInt64"]
+- ["10RealmSwift21ObjectKeyIdentifiableP", "id"]
+- ["10RealmSwift20ObservableCollectionP", "ObjectWillChangePublisher"]
+- !private ["10RealmSwift20ObservableCollectionP", "Publishers"]
+- ["10RealmSwift20ObservableCollectionP", "_Default_ObjectWillChangePublisher"]
+- ["10RealmSwift20ObservableCollectionP", "_observe"]
+- ["10RealmSwift20ObservableCollectionP", "objectWillChange"]
+- ["7Combine16ObservableObjectP", "ObjectWillChangePublisher"]
+- !private ["7Combine16ObservableObjectP", "Publishers"]
+- !private ["7Combine16ObservableObjectP", "RLMObjectBaseGetCombineId"]
+- ["7Combine16ObservableObjectP", ""]
+- ["7Combine16ObservableObjectP", "_Default_ObjectWillChangePublisher"]
+- ["7Combine16ObservableObjectP", "_observe"]
+- !private ["7Combine16ObservableObjectP", "freeze"]
+- !private ["7Combine16ObservableObjectP", "isInvalidated"]
+- ["7Combine16ObservableObjectP", "objectWillChange"]
+- !private ["7Combine16ObservableObjectP", "observe"]
+- !private ["7Combine16ObservableObjectP", "realm"]
+- ["10RealmSwift23ObservationSubscriptionV", "CombineIdentifier"]
+- ["10RealmSwift23ObservationSubscriptionV", "NotificationToken"]
+- ["10RealmSwift23ObservationSubscriptionV", "Subscribers"]
+- ["10RealmSwift23ObservationSubscriptionV", "cancel"]
+- ["10RealmSwift23ObservationSubscriptionV", "combineIdentifier"]
+- ["10RealmSwift23ObservationSubscriptionV", "deinit"]
+- ["10RealmSwift23ObservationSubscriptionV", "init"]
+- ["10RealmSwift23ObservationSubscriptionV", "request"]
+- !private ["10RealmSwift23ObservationSubscriptionV", "token"]
+- !private ["Sq", "change"]
+- !private ["Sq", "initial"]
+- !private ["Sq", "update"]
+- !private ["10RealmSwift16OptionalProtocolP", "change"]
+- !private ["10RealmSwift16OptionalProtocolP", "initial"]
+- !private ["10RealmSwift16OptionalProtocolP", "update"]
+- !private ["7Combine9PublisherP", "CollectionChangeset"]
+- !private ["7Combine9PublisherP", "CollectionChangesetWithToken"]
+- ["7Combine9PublisherP", "Combine"]
+- !private ["7Combine9PublisherP", "DeferredHandover"]
+- !private ["7Combine9PublisherP", "DeferredHandoverCollectionChangeset"]
+- !private ["7Combine9PublisherP", "DeferredHandoverObjectChangeset"]
+- ["7Combine9PublisherP", "Failure"]
+- ["7Combine9PublisherP", "Object"]
+- ["7Combine9PublisherP", "ObjectChange"]
+- !private ["7Combine9PublisherP", "ObjectChangeset"]
+- !private ["7Combine9PublisherP", "ObjectChangesetWithToken"]
+- !private ["7Combine9PublisherP", "ObservationSubscription"]
+- ["7Combine9PublisherP", "Output"]
+- ["7Combine9PublisherP", "Publishers"]
+- ["7Combine9PublisherP", "RealmCollection"]
+- ["7Combine9PublisherP", "RealmCollectionChange"]
+- !private ["7Combine9PublisherP", "RealmWillChangeWithToken"]
+- ["7Combine9PublisherP", "Self"]
+- ["7Combine9PublisherP", "ThreadConfined"]
+- !private ["7Combine9PublisherP", "ThreadSafeReference"]
+- !private ["7Combine9PublisherP", "Value"]
+- !private ["7Combine9PublisherP", "ValueWithToken"]
+- !private ["7Combine9PublisherP", "WillChangeWithToken"]
+- ["7Combine9PublisherP", ""]
+- !private ["7Combine9PublisherP", "collection"]
+- !private ["7Combine9PublisherP", "compactMap"]
+- !private ["7Combine9PublisherP", "config"]
+- !private ["7Combine9PublisherP", "fatalError"]
+- ["7Combine9PublisherP", "freeze"]
+- !private ["7Combine9PublisherP", "init"]
+- !private ["7Combine9PublisherP", "map"]
+- !private ["7Combine9PublisherP", "object"]
+- !private ["7Combine9PublisherP", "precondition"]
+- !private ["7Combine9PublisherP", "queue"]
+- !private ["7Combine9PublisherP", "realm"]
+- ["7Combine9PublisherP", "receive"]
+- !private ["7Combine9PublisherP", "scheduler"]
+- !private ["7Combine9PublisherP", "subscribable"]
+- ["7Combine9PublisherP", "threadSafeReference"]
+- !private ["7Combine9PublisherP", "tokenKeyPath"]
+- !private ["7Combine9PublisherP", "tokenParent"]
+- !private ["7Combine9PublisherP", "upstream"]
+- ["10RealmSwift10PublishersO", "CollectionChangeset"]
+- ["10RealmSwift10PublishersO", "CollectionChangesetWithToken"]
+- ["10RealmSwift10PublishersO", "DeferredHandover"]
+- ["10RealmSwift10PublishersO", "DeferredHandoverCollectionChangeset"]
+- ["10RealmSwift10PublishersO", "DeferredHandoverObjectChangeset"]
+- ["10RealmSwift10PublishersO", "DispatchQueue"]
+- ["10RealmSwift10PublishersO", "Error"]
+- ["10RealmSwift10PublishersO", "Handover"]
+- ["10RealmSwift10PublishersO", "Int"]
+- ["10RealmSwift10PublishersO", "MakeThreadSafe"]
+- ["10RealmSwift10PublishersO", "MakeThreadSafeCollectionChangeset"]
+- ["10RealmSwift10PublishersO", "MakeThreadSafeObjectChangeset"]
+- ["7Combine10PublishersO", "Map"]
+- ["10RealmSwift10PublishersO", "Never"]
+- ["10RealmSwift10PublishersO", "NotificationToken"]
+- ["10RealmSwift10PublishersO", "Object"]
+- ["10RealmSwift10PublishersO", "ObjectChange"]
+- ["10RealmSwift10PublishersO", "ObjectChangeset"]
+- ["10RealmSwift10PublishersO", "ObjectChangesetWithToken"]
+- !private ["10RealmSwift10PublishersO", "ObservationSubscription"]
+- ["10RealmSwift10PublishersO", "PropertyChange"]
+- ["10RealmSwift10PublishersO", "Publisher"]
+- ["10RealmSwift10PublishersO", "Publishers"]
+- !private ["10RealmSwift10PublishersO", "RLMRealm"]
+- ["10RealmSwift10PublishersO", "RLMRealmConfiguration"]
+- ["10RealmSwift10PublishersO", "Realm"]
+- ["10RealmSwift10PublishersO", "RealmCollection"]
+- ["10RealmSwift10PublishersO", "RealmCollectionChange"]
+- ["10RealmSwift10PublishersO", "RealmSubscribable"]
+- ["10RealmSwift10PublishersO", "RealmWillChange"]
+- ["10RealmSwift10PublishersO", "RealmWillChangeWithToken"]
+- ["10RealmSwift10PublishersO", "Scheduler"]
+- ["10RealmSwift10PublishersO", "Self"]
+- ["10RealmSwift10PublishersO", "Subscriber"]
+- ["10RealmSwift10PublishersO", "ThreadConfined"]
+- ["10RealmSwift10PublishersO", "ThreadSafeReference"]
+- ["10RealmSwift10PublishersO", "Value"]
+- ["10RealmSwift10PublishersO", "ValueWithToken"]
+- ["10RealmSwift10PublishersO", "Void"]
+- ["10RealmSwift10PublishersO", "WillChange"]
+- ["10RealmSwift10PublishersO", "WillChangeWithToken"]
+- ["10RealmSwift10PublishersO", "WritableKeyPath"]
+- !private ["10RealmSwift10PublishersO", "fatalError"]
+- !private ["10RealmSwift10PublishersO", "precondition"]
+- !private ["10RealmSwift10PublishersO", "realm"]
+- ["So11RLMListBaseC", "List"]
+- ["So11RLMListBaseC", "ObjectWillChangePublisher"]
+- ["So11RLMListBaseC", "Publishers"]
+- ["So11RLMListBaseC", "_Default_ObjectWillChangePublisher"]
+- ["So11RLMListBaseC", "_observe"]
+- ["So11RLMListBaseC", "objectWillChange"]
+- !private ["So20RLMNotificationTokenC", "invalidate"]
+- ["So13RLMObjectBaseC", "DispatchQueue"]
+- ["So13RLMObjectBaseC", "Error"]
+- ["So13RLMObjectBaseC", "Never"]
+- ["So13RLMObjectBaseC", "NotificationToken"]
+- ["So13RLMObjectBaseC", "Object"]
+- !private ["So13RLMObjectBaseC", "ObjectChange"]
+- ["So13RLMObjectBaseC", "ObjectWillChangePublisher"]
+- ["So13RLMObjectBaseC", "Publishers"]
+- !private ["So13RLMObjectBaseC", "RLMObjectBaseGetCombineId"]
+- ["So13RLMObjectBaseC", "Subscriber"]
+- ["So13RLMObjectBaseC", "UInt64"]
+- ["So13RLMObjectBaseC", "Void"]
+- ["So13RLMObjectBaseC", "_Default_ObjectWillChangePublisher"]
+- ["So13RLMObjectBaseC", "_observe"]
+- !private ["So13RLMObjectBaseC", "freeze"]
+- !private ["So13RLMObjectBaseC", "isInvalidated"]
+- ["So13RLMObjectBaseC", "objectWillChange"]
+- !private ["So13RLMObjectBaseC", "observe"]
+- !private ["So13RLMObjectBaseC", "realm"]
+- !private ["So8RLMRealmC", "configuration"]
+- !private ["So8RLMRealmC", "init"]
+- ["Sk", "DispatchQueue"]
+- ["Sk", "Error"]
+- ["Sk", "Never"]
+- ["Sk", "NotificationToken"]
+- ["Sk", "ObjectWillChangePublisher"]
+- ["Sk", "Publishers"]
+- ["Sk", "RealmSubscribable"]
+- ["Sk", "Subscriber"]
+- ["Sk", "Void"]
+- ["Sk", "_Default_ObjectWillChangePublisher"]
+- ["Sk", "_observe"]
+- !private ["Sk", "freeze"]
+- ["Sk", "objectWillChange"]
+- !private ["Sk", "observe"]
+- !private ["Sk", "realm"]
+- ["10RealmSwift0A0V", "Publishers"]
+- !private ["10RealmSwift0A0V", "deinit"]
+- !private ["10RealmSwift0A0V", "init"]
+- !private ["10RealmSwift0A0V", "isFrozen"]
+- ["10RealmSwift0A0V", "objectWillChange"]
+- !private ["10RealmSwift0A0V", "observe"]
+- !private ["10RealmSwift0A0V", "resolve"]
+- !private ["10RealmSwift0A0V", "rlmRealm"]
+- ["10RealmSwift0A10CollectionP", "DispatchQueue"]
+- ["10RealmSwift0A10CollectionP", "Error"]
+- ["10RealmSwift0A10CollectionP", "Never"]
+- ["10RealmSwift0A10CollectionP", "NotificationToken"]
+- ["10RealmSwift0A10CollectionP", "ObjectWillChangePublisher"]
+- ["10RealmSwift0A10CollectionP", "Publishers"]
+- ["10RealmSwift0A10CollectionP", "RealmSubscribable"]
+- ["10RealmSwift0A10CollectionP", "Subscriber"]
+- ["10RealmSwift0A10CollectionP", "Void"]
+- ["10RealmSwift0A10CollectionP", "_Default_ObjectWillChangePublisher"]
+- ["10RealmSwift0A10CollectionP", "_observe"]
+- ["10RealmSwift0A10CollectionP", "changesetPublisher"]
+- ["10RealmSwift0A10CollectionP", "collectionPublisher"]
+- !private ["10RealmSwift0A10CollectionP", "freeze"]
+- ["10RealmSwift0A10CollectionP", "objectWillChange"]
+- !private ["10RealmSwift0A10CollectionP", "observe"]
+- ["10RealmSwift0A10CollectionP", "publisher"]
+- !private ["10RealmSwift0A10CollectionP", "realm"]
+- ["10RealmSwift0A14CollectionBaseP", "DispatchQueue"]
+- ["10RealmSwift0A14CollectionBaseP", "Error"]
+- ["10RealmSwift0A14CollectionBaseP", "Never"]
+- ["10RealmSwift0A14CollectionBaseP", "NotificationToken"]
+- ["10RealmSwift0A14CollectionBaseP", "ObjectWillChangePublisher"]
+- ["10RealmSwift0A14CollectionBaseP", "Publishers"]
+- ["10RealmSwift0A14CollectionBaseP", "RealmSubscribable"]
+- ["10RealmSwift0A14CollectionBaseP", "Subscriber"]
+- ["10RealmSwift0A14CollectionBaseP", "Void"]
+- ["10RealmSwift0A14CollectionBaseP", "_Default_ObjectWillChangePublisher"]
+- ["10RealmSwift0A14CollectionBaseP", "_observe"]
+- !private ["10RealmSwift0A14CollectionBaseP", "freeze"]
+- ["10RealmSwift0A14CollectionBaseP", "objectWillChange"]
+- !private ["10RealmSwift0A14CollectionBaseP", "observe"]
+- !private ["10RealmSwift0A14CollectionBaseP", "realm"]
+- !private ["10RealmSwift0A16CollectionChangeO", "error"]
+- !private ["10RealmSwift0A16CollectionChangeO", "initial"]
+- !private ["10RealmSwift0A16CollectionChangeO", "update"]
+- ["10RealmSwift0A15CollectionValueP", "ObjectWillChangePublisher"]
+- !private ["10RealmSwift0A15CollectionValueP", "Publishers"]
+- !private ["10RealmSwift0A15CollectionValueP", "RLMObjectBaseGetCombineId"]
+- ["10RealmSwift0A15CollectionValueP", "_Default_ObjectWillChangePublisher"]
+- ["10RealmSwift0A15CollectionValueP", "_observe"]
+- !private ["10RealmSwift0A15CollectionValueP", "change"]
+- !private ["10RealmSwift0A15CollectionValueP", "freeze"]
+- !private ["10RealmSwift0A15CollectionValueP", "initial"]
+- !private ["10RealmSwift0A15CollectionValueP", "isInvalidated"]
+- ["10RealmSwift0A15CollectionValueP", "objectWillChange"]
+- !private ["10RealmSwift0A15CollectionValueP", "observe"]
+- !private ["10RealmSwift0A15CollectionValueP", "realm"]
+- !private ["10RealmSwift0A15CollectionValueP", "update"]
+- ["10RealmSwift0A12SubscribableP", "DispatchQueue"]
+- ["10RealmSwift0A12SubscribableP", "Error"]
+- ["10RealmSwift0A12SubscribableP", "Never"]
+- ["10RealmSwift0A12SubscribableP", "NotificationToken"]
+- ["10RealmSwift0A12SubscribableP", "ObjectWillChangePublisher"]
+- ["10RealmSwift0A12SubscribableP", "Publishers"]
+- !private ["10RealmSwift0A12SubscribableP", "RLMObjectBaseGetCombineId"]
+- ["10RealmSwift0A12SubscribableP", "RealmSubscribable"]
+- ["10RealmSwift0A12SubscribableP", "Subscriber"]
+- ["10RealmSwift0A12SubscribableP", "Void"]
+- ["10RealmSwift0A12SubscribableP", ""]
+- ["10RealmSwift0A12SubscribableP", "_Default_ObjectWillChangePublisher"]
+- ["10RealmSwift0A12SubscribableP", "_observe"]
+- !private ["10RealmSwift0A12SubscribableP", "freeze"]
+- !private ["10RealmSwift0A12SubscribableP", "isInvalidated"]
+- ["10RealmSwift0A12SubscribableP", "objectWillChange"]
+- !private ["10RealmSwift0A12SubscribableP", "observe"]
+- !private ["10RealmSwift0A12SubscribableP", "realm"]
+- ["10RealmSwift10PublishersO0A10WillChangeV", "Failure"]
+- ["10RealmSwift10PublishersO0A10WillChangeV", "Never"]
+- ["10RealmSwift10PublishersO0A10WillChangeV", "NotificationToken"]
+- !private ["10RealmSwift10PublishersO0A10WillChangeV", "ObservationSubscription"]
+- ["10RealmSwift10PublishersO0A10WillChangeV", "Output"]
+- ["10RealmSwift10PublishersO0A10WillChangeV", "Realm"]
+- ["10RealmSwift10PublishersO0A10WillChangeV", "RealmWillChangeWithToken"]
+- ["10RealmSwift10PublishersO0A10WillChangeV", "Subscriber"]
+- ["10RealmSwift10PublishersO0A10WillChangeV", "Void"]
+- ["10RealmSwift10PublishersO0A10WillChangeV", "WritableKeyPath"]
+- ["10RealmSwift10PublishersO0A10WillChangeV", "deinit"]
+- ["10RealmSwift10PublishersO0A10WillChangeV", "init"]
+- !private ["10RealmSwift10PublishersO0A10WillChangeV", "realm"]
+- ["10RealmSwift10PublishersO0A10WillChangeV", "receive"]
+- ["10RealmSwift10PublishersO0A10WillChangeV", "saveToken"]
+- ["10RealmSwift10PublishersO0A19WillChangeWithTokenC", "Failure"]
+- ["10RealmSwift10PublishersO0A19WillChangeWithTokenC", "Never"]
+- ["10RealmSwift10PublishersO0A19WillChangeWithTokenC", "NotificationToken"]
+- !private ["10RealmSwift10PublishersO0A19WillChangeWithTokenC", "ObservationSubscription"]
+- ["10RealmSwift10PublishersO0A19WillChangeWithTokenC", "Output"]
+- ["10RealmSwift10PublishersO0A19WillChangeWithTokenC", "Realm"]
+- ["10RealmSwift10PublishersO0A19WillChangeWithTokenC", "Subscriber"]
+- ["10RealmSwift10PublishersO0A19WillChangeWithTokenC", "TokenKeyPath"]
+- ["10RealmSwift10PublishersO0A19WillChangeWithTokenC", "TokenParent"]
+- ["10RealmSwift10PublishersO0A19WillChangeWithTokenC", "Void"]
+- ["10RealmSwift10PublishersO0A19WillChangeWithTokenC", "WritableKeyPath"]
+- ["10RealmSwift10PublishersO0A19WillChangeWithTokenC", "deinit"]
+- ["10RealmSwift10PublishersO0A19WillChangeWithTokenC", "init"]
+- !private ["10RealmSwift10PublishersO0A19WillChangeWithTokenC", "realm"]
+- ["10RealmSwift10PublishersO0A19WillChangeWithTokenC", "receive"]
+- !private ["10RealmSwift10PublishersO0A19WillChangeWithTokenC", "tokenKeyPath"]
+- !private ["10RealmSwift10PublishersO0A19WillChangeWithTokenC", "tokenParent"]
+- !private ["7Combine10PublishersO9ReceiveOnV", "compactMap"]
+- ["10RealmSwift7ResultsV", "Publishers"]
+- ["10RealmSwift7ResultsV", "Results"]
+- ["10RealmSwift7ResultsV", "_observe"]
+- ["10RealmSwift7ResultsV", "deinit"]
+- ["10RealmSwift7ResultsV", "objectWillChange"]
+- ["ST", "DispatchQueue"]
+- ["ST", "Error"]
+- ["ST", "Never"]
+- ["ST", "NotificationToken"]
+- ["ST", "ObjectWillChangePublisher"]
+- ["ST", "Publishers"]
+- ["ST", "RealmSubscribable"]
+- ["ST", "Subscriber"]
+- ["ST", "Void"]
+- ["ST", "_Default_ObjectWillChangePublisher"]
+- ["ST", "_observe"]
+- !private ["ST", "freeze"]
+- ["ST", "objectWillChange"]
+- !private ["ST", "observe"]
+- !private ["ST", "realm"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["7Combine10SubscriberP", "receive"]
+- ["7Combine11SubscribersO", "Demand"]
+- !private ["7Combine12SubscriptionP", "CombineIdentifier"]
+- ["7Combine12SubscriptionP", ""]
+- ["7Combine12SubscriptionP", "cancel"]
+- ["7Combine12SubscriptionP", "combineIdentifier"]
+- !private ["7Combine12SubscriptionP", "init"]
+- ["7Combine12SubscriptionP", "request"]
+- !private ["7Combine12SubscriptionP", "token"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["10RealmSwift14ThreadConfinedP", "DispatchQueue"]
+- ["10RealmSwift14ThreadConfinedP", "Error"]
+- ["10RealmSwift14ThreadConfinedP", "Never"]
+- ["10RealmSwift14ThreadConfinedP", "NotificationToken"]
+- ["10RealmSwift14ThreadConfinedP", "ObjectWillChangePublisher"]
+- ["10RealmSwift14ThreadConfinedP", "Publishers"]
+- !private ["10RealmSwift14ThreadConfinedP", "RLMObjectBaseGetCombineId"]
+- ["10RealmSwift14ThreadConfinedP", "RealmSubscribable"]
+- ["10RealmSwift14ThreadConfinedP", "Subscriber"]
+- ["10RealmSwift14ThreadConfinedP", "Void"]
+- ["10RealmSwift14ThreadConfinedP", "_Default_ObjectWillChangePublisher"]
+- ["10RealmSwift14ThreadConfinedP", "_observe"]
+- !private ["10RealmSwift14ThreadConfinedP", "freeze"]
+- !private ["10RealmSwift14ThreadConfinedP", "isInvalidated"]
+- ["10RealmSwift14ThreadConfinedP", "objectWillChange"]
+- !private ["10RealmSwift14ThreadConfinedP", "observe"]
+- !private ["10RealmSwift14ThreadConfinedP", "realm"]
+- !private ["10RealmSwift19ThreadSafeReferenceV", "init"]
+- ["10RealmSwift10PublishersO5ValueV", "DispatchQueue"]
+- ["10RealmSwift10PublishersO5ValueV", "Error"]
+- ["10RealmSwift10PublishersO5ValueV", "Failure"]
+- ["10RealmSwift10PublishersO5ValueV", "NotificationToken"]
+- !private ["10RealmSwift10PublishersO5ValueV", "ObservationSubscription"]
+- ["10RealmSwift10PublishersO5ValueV", "Output"]
+- ["10RealmSwift10PublishersO5ValueV", "Publishers"]
+- ["10RealmSwift10PublishersO5ValueV", "Scheduler"]
+- ["10RealmSwift10PublishersO5ValueV", "Self"]
+- ["10RealmSwift10PublishersO5ValueV", "Subscriber"]
+- ["10RealmSwift10PublishersO5ValueV", "Value"]
+- ["10RealmSwift10PublishersO5ValueV", "ValueWithToken"]
+- ["10RealmSwift10PublishersO5ValueV", "WritableKeyPath"]
+- ["10RealmSwift10PublishersO5ValueV", "deinit"]
+- !private ["10RealmSwift10PublishersO5ValueV", "fatalError"]
+- ["10RealmSwift10PublishersO5ValueV", "init"]
+- !private ["10RealmSwift10PublishersO5ValueV", "precondition"]
+- !private ["10RealmSwift10PublishersO5ValueV", "queue"]
+- ["10RealmSwift10PublishersO5ValueV", "receive"]
+- ["10RealmSwift10PublishersO5ValueV", "saveToken"]
+- !private ["10RealmSwift10PublishersO5ValueV", "subscribable"]
+- ["10RealmSwift10PublishersO5ValueV", "subscribe"]
+- ["10RealmSwift10PublishersO14ValueWithTokenC", "DispatchQueue"]
+- ["10RealmSwift10PublishersO14ValueWithTokenC", "Error"]
+- ["10RealmSwift10PublishersO14ValueWithTokenC", "Failure"]
+- ["10RealmSwift10PublishersO14ValueWithTokenC", "NotificationToken"]
+- !private ["10RealmSwift10PublishersO14ValueWithTokenC", "ObservationSubscription"]
+- ["10RealmSwift10PublishersO14ValueWithTokenC", "Output"]
+- ["10RealmSwift10PublishersO14ValueWithTokenC", "Publishers"]
+- ["10RealmSwift10PublishersO14ValueWithTokenC", "Scheduler"]
+- ["10RealmSwift10PublishersO14ValueWithTokenC", "Subscriber"]
+- ["10RealmSwift10PublishersO14ValueWithTokenC", "TokenKeyPath"]
+- ["10RealmSwift10PublishersO14ValueWithTokenC", "TokenParent"]
+- ["10RealmSwift10PublishersO14ValueWithTokenC", "ValueWithToken"]
+- ["10RealmSwift10PublishersO14ValueWithTokenC", "WritableKeyPath"]
+- ["10RealmSwift10PublishersO14ValueWithTokenC", "deinit"]
+- !private ["10RealmSwift10PublishersO14ValueWithTokenC", "fatalError"]
+- ["10RealmSwift10PublishersO14ValueWithTokenC", "init"]
+- !private ["10RealmSwift10PublishersO14ValueWithTokenC", "object"]
+- !private ["10RealmSwift10PublishersO14ValueWithTokenC", "precondition"]
+- !private ["10RealmSwift10PublishersO14ValueWithTokenC", "queue"]
+- ["10RealmSwift10PublishersO14ValueWithTokenC", "receive"]
+- ["10RealmSwift10PublishersO14ValueWithTokenC", "subscribe"]
+- !private ["10RealmSwift10PublishersO14ValueWithTokenC", "tokenKeyPath"]
+- !private ["10RealmSwift10PublishersO14ValueWithTokenC", "tokenParent"]
+- ["10RealmSwift10PublishersO10WillChangeV", "Failure"]
+- ["10RealmSwift10PublishersO10WillChangeV", "Never"]
+- ["10RealmSwift10PublishersO10WillChangeV", "NotificationToken"]
+- !private ["10RealmSwift10PublishersO10WillChangeV", "ObservationSubscription"]
+- ["10RealmSwift10PublishersO10WillChangeV", "Output"]
+- ["10RealmSwift10PublishersO10WillChangeV", "Subscriber"]
+- ["10RealmSwift10PublishersO10WillChangeV", "Void"]
+- ["10RealmSwift10PublishersO10WillChangeV", "WillChangeWithToken"]
+- ["10RealmSwift10PublishersO10WillChangeV", "WritableKeyPath"]
+- !private ["10RealmSwift10PublishersO10WillChangeV", "collection"]
+- ["10RealmSwift10PublishersO10WillChangeV", "deinit"]
+- ["10RealmSwift10PublishersO10WillChangeV", "init"]
+- ["10RealmSwift10PublishersO10WillChangeV", "receive"]
+- ["10RealmSwift10PublishersO10WillChangeV", "saveToken"]
+- ["10RealmSwift10PublishersO19WillChangeWithTokenC", "Failure"]
+- ["10RealmSwift10PublishersO19WillChangeWithTokenC", "Never"]
+- ["10RealmSwift10PublishersO19WillChangeWithTokenC", "NotificationToken"]
+- !private ["10RealmSwift10PublishersO19WillChangeWithTokenC", "ObservationSubscription"]
+- ["10RealmSwift10PublishersO19WillChangeWithTokenC", "Output"]
+- ["10RealmSwift10PublishersO19WillChangeWithTokenC", "Subscriber"]
+- ["10RealmSwift10PublishersO19WillChangeWithTokenC", "TokenKeyPath"]
+- ["10RealmSwift10PublishersO19WillChangeWithTokenC", "TokenParent"]
+- ["10RealmSwift10PublishersO19WillChangeWithTokenC", "Void"]
+- ["10RealmSwift10PublishersO19WillChangeWithTokenC", "WritableKeyPath"]
+- ["10RealmSwift10PublishersO19WillChangeWithTokenC", "deinit"]
+- ["10RealmSwift10PublishersO19WillChangeWithTokenC", "init"]
+- !private ["10RealmSwift10PublishersO19WillChangeWithTokenC", "object"]
+- ["10RealmSwift10PublishersO19WillChangeWithTokenC", "receive"]
+- !private ["10RealmSwift10PublishersO19WillChangeWithTokenC", "tokenKeyPath"]
+- !private ["10RealmSwift10PublishersO19WillChangeWithTokenC", "tokenParent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ObjectWillChangePublisher"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Publishers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RLMObjectBaseGetCombineId"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "_Default_ObjectWillChangePublisher"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "_observe"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "configuration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "freeze"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "invalidate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isInvalidated"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "objectWillChange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "observe"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "realm"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ObjectWillChangePublisher"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Publishers"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "RLMObjectBaseGetCombineId"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "_Default_ObjectWillChangePublisher"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "_observe"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "configuration"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "freeze"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "invalidate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isInvalidated"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "objectWillChange"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "observe"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "realm"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "ObjectWillChangePublisher"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "Publishers"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "RLMObjectBaseGetCombineId"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "_Default_ObjectWillChangePublisher"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "_observe"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "change"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "freeze"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "initial"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "isInvalidated"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "objectWillChange"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "observe"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "realm"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "update"]
+- !private ["s21_ObjectiveCBridgeableP", "change"]
+- !private ["s21_ObjectiveCBridgeableP", "initial"]
+- !private ["s21_ObjectiveCBridgeableP", "update"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "DispatchQueue"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "Error"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "Never"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "NotificationToken"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "ObjectWillChangePublisher"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "Publishers"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "RealmSubscribable"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "Subscriber"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "Void"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "_Default_ObjectWillChangePublisher"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "_observe"]
+- !private ["10RealmSwift01_A20CollectionEnumeratorP", "freeze"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "objectWillChange"]
+- !private ["10RealmSwift01_A20CollectionEnumeratorP", "observe"]
+- !private ["10RealmSwift01_A20CollectionEnumeratorP", "realm"]
+depends-nominal:
+- "10RealmSwift03AnyA10CollectionV"
+- "10RealmSwift28AssistedObjectiveCBridgeableP"
+- "SK"
+- "s7CVarArgP"
+- "7Combine11CancellableP"
+- "Sl"
+- "10RealmSwift10PublishersO19CollectionChangesetV"
+- "10RealmSwift10PublishersO28CollectionChangesetWithTokenC"
+- !private "7Combine0A10IdentifierV"
+- !private "7Combine10PublishersO10CompactMapV"
+- !private "7Combine11SubscribersO10CompletionO"
+- "7Combine06CustomA21IdentifierConvertibleP"
+- "s28CustomDebugStringConvertibleP"
+- !private "10RealmSwift26CustomObjectiveCBridgeableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "10RealmSwift10PublishersO16DeferredHandoverV"
+- "10RealmSwift10PublishersO35DeferredHandoverCollectionChangesetV"
+- "10RealmSwift10PublishersO31DeferredHandoverObjectChangesetV"
+- "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "10RealmSwift10PublishersO8HandoverV"
+- "10RealmSwift10PublishersO8HandoverV"
+- "10RealmSwift10PublishersO8HandoverV"
+- "10RealmSwift10PublishersO8HandoverV"
+- "10RealmSwift10PublishersO8HandoverV"
+- "10RealmSwift10PublishersO8HandoverV"
+- !private "10RealmSwift10PublishersO8HandoverV"
+- "SH"
+- "s12IdentifiableP"
+- "s22LazyCollectionProtocolP"
+- "s20LazySequenceProtocolP"
+- "10RealmSwift14LinkingObjectsV"
+- "10RealmSwift4ListC"
+- "10RealmSwift8ListBaseC"
+- "10RealmSwift10PublishersO14MakeThreadSafeV"
+- "10RealmSwift10PublishersO33MakeThreadSafeCollectionChangesetV"
+- "10RealmSwift10PublishersO29MakeThreadSafeObjectChangesetV"
+- !private "7Combine10PublishersO3MapV"
+- "SM"
+- "So17NSFastEnumerationP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "10RealmSwift6ObjectC"
+- !private "10RealmSwift12ObjectChangeO"
+- "10RealmSwift10PublishersO15ObjectChangesetV"
+- "10RealmSwift10PublishersO24ObjectChangesetWithTokenC"
+- "10RealmSwift21ObjectKeyIdentifiableP"
+- "10RealmSwift20ObservableCollectionP"
+- "7Combine16ObservableObjectP"
+- "10RealmSwift23ObservationSubscriptionV"
+- !private "Sq"
+- !private "10RealmSwift16OptionalProtocolP"
+- "7Combine9PublisherP"
+- "10RealmSwift10PublishersO"
+- "7Combine10PublishersO"
+- "10RealmSwift10PublishersO"
+- "So11RLMListBaseC"
+- !private "So20RLMNotificationTokenC"
+- "So13RLMObjectBaseC"
+- !private "So8RLMRealmC"
+- "Sk"
+- "10RealmSwift0A0V"
+- "10RealmSwift0A10CollectionP"
+- "10RealmSwift0A14CollectionBaseP"
+- !private "10RealmSwift0A16CollectionChangeO"
+- "10RealmSwift0A15CollectionValueP"
+- "10RealmSwift0A12SubscribableP"
+- "10RealmSwift10PublishersO0A10WillChangeV"
+- "10RealmSwift10PublishersO0A19WillChangeWithTokenC"
+- !private "7Combine10PublishersO9ReceiveOnV"
+- "10RealmSwift7ResultsV"
+- "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "7Combine10SubscriberP"
+- "7Combine11SubscribersO"
+- "7Combine12SubscriptionP"
+- !private "s16TextOutputStreamP"
+- "10RealmSwift14ThreadConfinedP"
+- !private "10RealmSwift19ThreadSafeReferenceV"
+- "10RealmSwift10PublishersO5ValueV"
+- "10RealmSwift10PublishersO14ValueWithTokenC"
+- "10RealmSwift10PublishersO10WillChangeV"
+- "10RealmSwift10PublishersO19WillChangeWithTokenC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "10RealmSwift20_ManagedPropertyTypeP"
+- !private "s21_ObjectiveCBridgeableP"
+- "10RealmSwift01_A20CollectionEnumeratorP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/deepansh/Desktop/ForexWatchlist/Pods/Target Support Files/RealmSwift/RealmSwift-umbrella.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/unextended-module.modulemap"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Realm.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "36b6806cbef17b45dab5143ca9a117ac"

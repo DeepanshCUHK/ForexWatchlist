@@ -1,0 +1,425 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppConfig"
+provides-nominal:
+- "14ForexWatchlist9AppConfigV"
+provides-member:
+- ["14ForexWatchlist9AppConfigV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "*"
+- !private "+"
+- !private "/"
+- !private ">"
+- "AppConfig"
+- "AssignmentPrecedence"
+- "Double"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- !private "NSNumber"
+- !private "NumberFormatter"
+- "String"
+- "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "floor"
+depends-member:
+- !private ["10RealmSwift11AddableTypeP", "init"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- ["14ForexWatchlist9AppConfigV", "Double"]
+- !private ["14ForexWatchlist9AppConfigV", "NSNumber"]
+- !private ["14ForexWatchlist9AppConfigV", "NumberFormatter"]
+- ["14ForexWatchlist9AppConfigV", "String"]
+- ["14ForexWatchlist9AppConfigV", "balance"]
+- ["14ForexWatchlist9AppConfigV", "changePercentDisplayFormat"]
+- !private ["14ForexWatchlist9AppConfigV", "floor"]
+- ["14ForexWatchlist9AppConfigV", "init"]
+- ["14ForexWatchlist9AppConfigV", "numberDisplayFormat"]
+- ["14ForexWatchlist9AppConfigV", "numberWithCommaDisplayFormat"]
+- ["14ForexWatchlist9AppConfigV", "pip"]
+- ["14ForexWatchlist9AppConfigV", "rateDisplayFormat"]
+- ["14ForexWatchlist9AppConfigV", "rateRefreshInterval"]
+- ["14ForexWatchlist9AppConfigV", "symbolDisplayFormat"]
+- ["14ForexWatchlist9AppConfigV", "symbols"]
+- !private ["SK", "init"]
+- !private ["SK", "prefix"]
+- !private ["SK", "suffix"]
+- !private ["SB", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "numberStyle"]
+- !private ["s7CVarArgP", "prefix"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "suffix"]
+- !private ["Sl", "init"]
+- !private ["Sl", "prefix"]
+- !private ["Sl", "suffix"]
+- !private ["SL", "init"]
+- !private ["SL", "prefix"]
+- !private ["SL", "suffix"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "numberStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "prefix"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "suffix"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "prefix"]
+- !private ["s17CustomReflectableP", "suffix"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "numberStyle"]
+- !private ["s23CustomStringConvertibleP", "prefix"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "suffix"]
+- !private ["Se", "init"]
+- !private ["Se", "prefix"]
+- !private ["Se", "suffix"]
+- !private ["Sd", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "prefix"]
+- !private ["SE", "suffix"]
+- !private ["SQ", "currency"]
+- !private ["SQ", "init"]
+- !private ["SQ", "numberStyle"]
+- !private ["SQ", "prefix"]
+- !private ["SQ", "string"]
+- !private ["SQ", "suffix"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "prefix"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "suffix"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "prefix"]
+- !private ["s32ExpressibleByStringInterpolationP", "suffix"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "prefix"]
+- !private ["s26ExpressibleByStringLiteralP", "suffix"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "prefix"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "suffix"]
+- !private ["9HandyJSON21FloatPropertyProtocolP", "init"]
+- !private ["SF", "init"]
+- !private ["So11NSFormatterC", "init"]
+- !private ["So11NSFormatterC", "numberStyle"]
+- !private ["So11NSFormatterC", "string"]
+- !private ["SH", "currency"]
+- !private ["SH", "init"]
+- !private ["SH", "numberStyle"]
+- !private ["SH", "prefix"]
+- !private ["SH", "string"]
+- !private ["SH", "suffix"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "prefix"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "suffix"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "prefix"]
+- !private ["s25LosslessStringConvertibleP", "suffix"]
+- !private ["10RealmSwift10MinMaxTypeP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "prefix"]
+- !private ["s10MirrorPathP", "suffix"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "numberStyle"]
+- !private ["So8NSCodingP", "prefix"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So8NSCodingP", "suffix"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "numberStyle"]
+- !private ["So9NSCopyingP", "prefix"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So9NSCopyingP", "suffix"]
+- !private ["So21NSItemProviderReadingP", "prefix"]
+- !private ["So21NSItemProviderReadingP", "suffix"]
+- !private ["So21NSItemProviderWritingP", "prefix"]
+- !private ["So21NSItemProviderWritingP", "suffix"]
+- !private ["So16NSMutableCopyingP", "prefix"]
+- !private ["So16NSMutableCopyingP", "suffix"]
+- !private ["So8NSNumberC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "numberStyle"]
+- !private ["So8NSObjectC", "prefix"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "suffix"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "numberStyle"]
+- !private ["So8NSObjectP", "prefix"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "suffix"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "prefix"]
+- !private ["So14NSSecureCodingP", "suffix"]
+- !private ["So8NSStringC", "prefix"]
+- !private ["So8NSStringC", "suffix"]
+- !private ["So7NSValueC", "init"]
+- !private ["So17NSNumberFormatterC", "init"]
+- !private ["So17NSNumberFormatterC", "numberStyle"]
+- !private ["So17NSNumberFormatterC", "string"]
+- !private ["Sj", "init"]
+- !private ["So7RLMBoolP", "init"]
+- !private ["So9RLMDoubleP", "init"]
+- !private ["So8RLMFloatP", "init"]
+- !private ["So6RLMIntP", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "prefix"]
+- !private ["Sm", "suffix"]
+- !private ["SY", "currency"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "numberStyle"]
+- !private ["7RxSwift18ReactiveCompatibleP", "prefix"]
+- !private ["7RxSwift18ReactiveCompatibleP", "string"]
+- !private ["7RxSwift18ReactiveCompatibleP", "suffix"]
+- !private ["10RealmSwift0A15CollectionValueP", "init"]
+- !private ["10RealmSwift0A15CollectionValueP", "prefix"]
+- !private ["10RealmSwift0A15CollectionValueP", "suffix"]
+- !private ["10RealmSwift0A12OptionalTypeP", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "prefix"]
+- !private ["ST", "suffix"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "prefix"]
+- !private ["SS", "suffix"]
+- !private ["Sy", "init"]
+- !private ["Sy", "prefix"]
+- !private ["Sy", "suffix"]
+- !private ["So22NSNumberFormatterStyleV", "currency"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "prefix"]
+- !private ["s16TextOutputStreamP", "suffix"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "prefix"]
+- !private ["s20TextOutputStreamableP", "suffix"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "prefix"]
+- !private ["9Alamofire14URLConvertibleP", "suffix"]
+- !private ["9HandyJSON17UTF8InitializableP", "init"]
+- !private ["9HandyJSON17UTF8InitializableP", "prefix"]
+- !private ["9HandyJSON17UTF8InitializableP", "suffix"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "init"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "prefix"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "suffix"]
+- !private ["9HandyJSON18_BuiltInBridgeTypeP", "init"]
+- !private ["9HandyJSON18_BuiltInBridgeTypeP", "prefix"]
+- !private ["9HandyJSON18_BuiltInBridgeTypeP", "suffix"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "prefix"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "suffix"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "prefix"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "suffix"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "prefix"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "suffix"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "prefix"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "suffix"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "prefix"]
+- !private ["s19_HasContiguousBytesP", "suffix"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "prefix"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "suffix"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "prefix"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "suffix"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "numberStyle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "prefix"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "string"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "suffix"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "init"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "prefix"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "suffix"]
+- !private ["9HandyJSON11_MeasurableP", "init"]
+- !private ["9HandyJSON11_MeasurableP", "prefix"]
+- !private ["9HandyJSON11_MeasurableP", "suffix"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "prefix"]
+- !private ["s21_ObjectiveCBridgeableP", "suffix"]
+- !private ["9HandyJSON14_TransformableP", "init"]
+- !private ["9HandyJSON14_TransformableP", "prefix"]
+- !private ["9HandyJSON14_TransformableP", "suffix"]
+depends-nominal:
+- !private "10RealmSwift11AddableTypeP"
+- !private "s18AdditiveArithmeticP"
+- "14ForexWatchlist9AppConfigV"
+- !private "SK"
+- !private "SB"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "Sd"
+- !private "SE"
+- !private "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "9HandyJSON21FloatPropertyProtocolP"
+- !private "SF"
+- !private "So11NSFormatterC"
+- !private "SH"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "10RealmSwift10MinMaxTypeP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSNumberC"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So7NSValueC"
+- !private "So17NSNumberFormatterC"
+- !private "Sj"
+- !private "So7RLMBoolP"
+- !private "So9RLMDoubleP"
+- !private "So8RLMFloatP"
+- !private "So6RLMIntP"
+- !private "Sm"
+- !private "SY"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "10RealmSwift0A15CollectionValueP"
+- !private "10RealmSwift0A12OptionalTypeP"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "So22NSNumberFormatterStyleV"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "9Alamofire14URLConvertibleP"
+- !private "9HandyJSON17UTF8InitializableP"
+- !private "9HandyJSON17_BuiltInBasicTypeP"
+- !private "9HandyJSON18_BuiltInBridgeTypeP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "10RealmSwift20_ManagedPropertyTypeP"
+- !private "9HandyJSON11_MeasurableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "9HandyJSON14_TransformableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.framework/Modules/HandyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.framework/Headers/HandyJSON.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.framework/Headers/HandyJSON-umbrella.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.framework/Headers/HandyJSON-Swift.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.framework/Modules/module.modulemap"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e516c1320f46b24711886c44b80b29cf"

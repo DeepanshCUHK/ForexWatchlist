@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "2c7f4b001268c6bed5292492e7f760be"
+build_time: [1603655320, 360665000]
+inputs:
+  "/Users/deepansh/Desktop/ForexWatchlist/Pods/SwiftyJSON/Source/SwiftyJSON/SwiftyJSON.swift": [1603487719, 918972162]

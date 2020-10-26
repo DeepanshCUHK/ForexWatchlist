@@ -1,0 +1,447 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ForexViewModel"
+provides-nominal:
+- "14ForexWatchlist0A9ViewModelV"
+provides-member:
+- ["14ForexWatchlist0A9ViewModelV", ""]
+- ["14ForexWatchlist0A9ViewModelV", "updateEquity"]
+- ["14ForexWatchlist0A9ViewModelV", "updateProfitAndLoss"]
+- ["14ForexWatchlist0A9ViewModelV", "updateChange"]
+- ["14ForexWatchlist0A9ViewModelV", "updateBuyAndSellRate"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "/"
+- !private "<"
+- !private ">"
+- "AssignmentPrecedence"
+- !private "Double"
+- !private "FloatLiteralType"
+- "Forex"
+- "ForexViewModel"
+- !private "IntegerLiteralType"
+- !private "StringLiteralType"
+depends-member:
+- !private ["10RealmSwift11AddableTypeP", "init"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "averageBuyPrice"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "balance"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "buyRate"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "buyRateBlinkColor"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "change"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "equity"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "openRate"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "pip"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "profitLoss"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "rate"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "sellRate"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "sellRateBlinkColor"]
+- !private ["SB", "init"]
+- !private ["s7CVarArgP", "averageBuyPrice"]
+- !private ["s7CVarArgP", "balance"]
+- !private ["s7CVarArgP", "buyRate"]
+- !private ["s7CVarArgP", "buyRateBlinkColor"]
+- !private ["s7CVarArgP", "change"]
+- !private ["s7CVarArgP", "equity"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "openRate"]
+- !private ["s7CVarArgP", "pip"]
+- !private ["s7CVarArgP", "profitLoss"]
+- !private ["s7CVarArgP", "rate"]
+- !private ["s7CVarArgP", "sellRate"]
+- !private ["s7CVarArgP", "sellRateBlinkColor"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "averageBuyPrice"]
+- !private ["s28CustomDebugStringConvertibleP", "balance"]
+- !private ["s28CustomDebugStringConvertibleP", "buyRate"]
+- !private ["s28CustomDebugStringConvertibleP", "buyRateBlinkColor"]
+- !private ["s28CustomDebugStringConvertibleP", "change"]
+- !private ["s28CustomDebugStringConvertibleP", "equity"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "openRate"]
+- !private ["s28CustomDebugStringConvertibleP", "pip"]
+- !private ["s28CustomDebugStringConvertibleP", "profitLoss"]
+- !private ["s28CustomDebugStringConvertibleP", "rate"]
+- !private ["s28CustomDebugStringConvertibleP", "sellRate"]
+- !private ["s28CustomDebugStringConvertibleP", "sellRateBlinkColor"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "averageBuyPrice"]
+- !private ["s23CustomStringConvertibleP", "balance"]
+- !private ["s23CustomStringConvertibleP", "buyRate"]
+- !private ["s23CustomStringConvertibleP", "buyRateBlinkColor"]
+- !private ["s23CustomStringConvertibleP", "change"]
+- !private ["s23CustomStringConvertibleP", "equity"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "openRate"]
+- !private ["s23CustomStringConvertibleP", "pip"]
+- !private ["s23CustomStringConvertibleP", "profitLoss"]
+- !private ["s23CustomStringConvertibleP", "rate"]
+- !private ["s23CustomStringConvertibleP", "sellRate"]
+- !private ["s23CustomStringConvertibleP", "sellRateBlinkColor"]
+- !private ["Se", "init"]
+- !private ["Sd", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "averageBuyPrice"]
+- !private ["SQ", "balance"]
+- !private ["SQ", "buyRate"]
+- !private ["SQ", "buyRateBlinkColor"]
+- !private ["SQ", "change"]
+- !private ["SQ", "equity"]
+- !private ["SQ", "init"]
+- !private ["SQ", "openRate"]
+- !private ["SQ", "pip"]
+- !private ["SQ", "profitLoss"]
+- !private ["SQ", "rate"]
+- !private ["SQ", "sellRate"]
+- !private ["SQ", "sellRateBlinkColor"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["9HandyJSON21FloatPropertyProtocolP", "init"]
+- !private ["SF", "init"]
+- !private ["14ForexWatchlist0A0C", "averageBuyPrice"]
+- !private ["14ForexWatchlist0A0C", "balance"]
+- !private ["14ForexWatchlist0A0C", "buyRate"]
+- !private ["14ForexWatchlist0A0C", "buyRateBlinkColor"]
+- !private ["14ForexWatchlist0A0C", "change"]
+- !private ["14ForexWatchlist0A0C", "equity"]
+- !private ["14ForexWatchlist0A0C", "openRate"]
+- !private ["14ForexWatchlist0A0C", "pip"]
+- !private ["14ForexWatchlist0A0C", "profitLoss"]
+- !private ["14ForexWatchlist0A0C", "rate"]
+- !private ["14ForexWatchlist0A0C", "sellRate"]
+- !private ["14ForexWatchlist0A0C", "sellRateBlinkColor"]
+- !private ["14ForexWatchlist0A9ViewModelV", "Double"]
+- ["14ForexWatchlist0A9ViewModelV", "Forex"]
+- ["14ForexWatchlist0A9ViewModelV", "forex"]
+- ["14ForexWatchlist0A9ViewModelV", "init"]
+- ["14ForexWatchlist0A9ViewModelV", "updateBuyAndSellRate"]
+- ["14ForexWatchlist0A9ViewModelV", "updateChange"]
+- ["14ForexWatchlist0A9ViewModelV", "updateEquity"]
+- ["14ForexWatchlist0A9ViewModelV", "updateProfitAndLoss"]
+- !private ["SH", "averageBuyPrice"]
+- !private ["SH", "balance"]
+- !private ["SH", "buyRate"]
+- !private ["SH", "buyRateBlinkColor"]
+- !private ["SH", "change"]
+- !private ["SH", "equity"]
+- !private ["SH", "init"]
+- !private ["SH", "openRate"]
+- !private ["SH", "pip"]
+- !private ["SH", "profitLoss"]
+- !private ["SH", "rate"]
+- !private ["SH", "sellRate"]
+- !private ["SH", "sellRateBlinkColor"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["10RealmSwift10MinMaxTypeP", "init"]
+- !private ["So8NSObjectC", "averageBuyPrice"]
+- !private ["So8NSObjectC", "balance"]
+- !private ["So8NSObjectC", "buyRate"]
+- !private ["So8NSObjectC", "buyRateBlinkColor"]
+- !private ["So8NSObjectC", "change"]
+- !private ["So8NSObjectC", "equity"]
+- !private ["So8NSObjectC", "openRate"]
+- !private ["So8NSObjectC", "pip"]
+- !private ["So8NSObjectC", "profitLoss"]
+- !private ["So8NSObjectC", "rate"]
+- !private ["So8NSObjectC", "sellRate"]
+- !private ["So8NSObjectC", "sellRateBlinkColor"]
+- !private ["So8NSObjectP", "averageBuyPrice"]
+- !private ["So8NSObjectP", "balance"]
+- !private ["So8NSObjectP", "buyRate"]
+- !private ["So8NSObjectP", "buyRateBlinkColor"]
+- !private ["So8NSObjectP", "change"]
+- !private ["So8NSObjectP", "equity"]
+- !private ["So8NSObjectP", "openRate"]
+- !private ["So8NSObjectP", "pip"]
+- !private ["So8NSObjectP", "profitLoss"]
+- !private ["So8NSObjectP", "rate"]
+- !private ["So8NSObjectP", "sellRate"]
+- !private ["So8NSObjectP", "sellRateBlinkColor"]
+- !private ["Sj", "init"]
+- !private ["10RealmSwift6ObjectC", "averageBuyPrice"]
+- !private ["10RealmSwift6ObjectC", "balance"]
+- !private ["10RealmSwift6ObjectC", "buyRate"]
+- !private ["10RealmSwift6ObjectC", "buyRateBlinkColor"]
+- !private ["10RealmSwift6ObjectC", "change"]
+- !private ["10RealmSwift6ObjectC", "equity"]
+- !private ["10RealmSwift6ObjectC", "openRate"]
+- !private ["10RealmSwift6ObjectC", "pip"]
+- !private ["10RealmSwift6ObjectC", "profitLoss"]
+- !private ["10RealmSwift6ObjectC", "rate"]
+- !private ["10RealmSwift6ObjectC", "sellRate"]
+- !private ["10RealmSwift6ObjectC", "sellRateBlinkColor"]
+- !private ["7Combine16ObservableObjectP", "averageBuyPrice"]
+- !private ["7Combine16ObservableObjectP", "balance"]
+- !private ["7Combine16ObservableObjectP", "buyRate"]
+- !private ["7Combine16ObservableObjectP", "buyRateBlinkColor"]
+- !private ["7Combine16ObservableObjectP", "change"]
+- !private ["7Combine16ObservableObjectP", "equity"]
+- !private ["7Combine16ObservableObjectP", "openRate"]
+- !private ["7Combine16ObservableObjectP", "pip"]
+- !private ["7Combine16ObservableObjectP", "profitLoss"]
+- !private ["7Combine16ObservableObjectP", "rate"]
+- !private ["7Combine16ObservableObjectP", "sellRate"]
+- !private ["7Combine16ObservableObjectP", "sellRateBlinkColor"]
+- !private ["So13RLMObjectBaseC", "averageBuyPrice"]
+- !private ["So13RLMObjectBaseC", "balance"]
+- !private ["So13RLMObjectBaseC", "buyRate"]
+- !private ["So13RLMObjectBaseC", "buyRateBlinkColor"]
+- !private ["So13RLMObjectBaseC", "change"]
+- !private ["So13RLMObjectBaseC", "equity"]
+- !private ["So13RLMObjectBaseC", "openRate"]
+- !private ["So13RLMObjectBaseC", "pip"]
+- !private ["So13RLMObjectBaseC", "profitLoss"]
+- !private ["So13RLMObjectBaseC", "rate"]
+- !private ["So13RLMObjectBaseC", "sellRate"]
+- !private ["So13RLMObjectBaseC", "sellRateBlinkColor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "averageBuyPrice"]
+- !private ["7RxSwift18ReactiveCompatibleP", "balance"]
+- !private ["7RxSwift18ReactiveCompatibleP", "buyRate"]
+- !private ["7RxSwift18ReactiveCompatibleP", "buyRateBlinkColor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "change"]
+- !private ["7RxSwift18ReactiveCompatibleP", "equity"]
+- !private ["7RxSwift18ReactiveCompatibleP", "openRate"]
+- !private ["7RxSwift18ReactiveCompatibleP", "pip"]
+- !private ["7RxSwift18ReactiveCompatibleP", "profitLoss"]
+- !private ["7RxSwift18ReactiveCompatibleP", "rate"]
+- !private ["7RxSwift18ReactiveCompatibleP", "sellRate"]
+- !private ["7RxSwift18ReactiveCompatibleP", "sellRateBlinkColor"]
+- !private ["10RealmSwift0A15CollectionValueP", "averageBuyPrice"]
+- !private ["10RealmSwift0A15CollectionValueP", "balance"]
+- !private ["10RealmSwift0A15CollectionValueP", "buyRate"]
+- !private ["10RealmSwift0A15CollectionValueP", "buyRateBlinkColor"]
+- !private ["10RealmSwift0A15CollectionValueP", "change"]
+- !private ["10RealmSwift0A15CollectionValueP", "equity"]
+- !private ["10RealmSwift0A15CollectionValueP", "init"]
+- !private ["10RealmSwift0A15CollectionValueP", "openRate"]
+- !private ["10RealmSwift0A15CollectionValueP", "pip"]
+- !private ["10RealmSwift0A15CollectionValueP", "profitLoss"]
+- !private ["10RealmSwift0A15CollectionValueP", "rate"]
+- !private ["10RealmSwift0A15CollectionValueP", "sellRate"]
+- !private ["10RealmSwift0A15CollectionValueP", "sellRateBlinkColor"]
+- !private ["10RealmSwift0A12OptionalTypeP", "init"]
+- !private ["10RealmSwift0A12SubscribableP", "averageBuyPrice"]
+- !private ["10RealmSwift0A12SubscribableP", "balance"]
+- !private ["10RealmSwift0A12SubscribableP", "buyRate"]
+- !private ["10RealmSwift0A12SubscribableP", "buyRateBlinkColor"]
+- !private ["10RealmSwift0A12SubscribableP", "change"]
+- !private ["10RealmSwift0A12SubscribableP", "equity"]
+- !private ["10RealmSwift0A12SubscribableP", "openRate"]
+- !private ["10RealmSwift0A12SubscribableP", "pip"]
+- !private ["10RealmSwift0A12SubscribableP", "profitLoss"]
+- !private ["10RealmSwift0A12SubscribableP", "rate"]
+- !private ["10RealmSwift0A12SubscribableP", "sellRate"]
+- !private ["10RealmSwift0A12SubscribableP", "sellRateBlinkColor"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["10RealmSwift14ThreadConfinedP", "averageBuyPrice"]
+- !private ["10RealmSwift14ThreadConfinedP", "balance"]
+- !private ["10RealmSwift14ThreadConfinedP", "buyRate"]
+- !private ["10RealmSwift14ThreadConfinedP", "buyRateBlinkColor"]
+- !private ["10RealmSwift14ThreadConfinedP", "change"]
+- !private ["10RealmSwift14ThreadConfinedP", "equity"]
+- !private ["10RealmSwift14ThreadConfinedP", "openRate"]
+- !private ["10RealmSwift14ThreadConfinedP", "pip"]
+- !private ["10RealmSwift14ThreadConfinedP", "profitLoss"]
+- !private ["10RealmSwift14ThreadConfinedP", "rate"]
+- !private ["10RealmSwift14ThreadConfinedP", "sellRate"]
+- !private ["10RealmSwift14ThreadConfinedP", "sellRateBlinkColor"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "averageBuyPrice"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "balance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "buyRate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "buyRateBlinkColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "change"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "equity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "openRate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pip"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "profitLoss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sellRate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sellRateBlinkColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "averageBuyPrice"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "balance"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "buyRate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "buyRateBlinkColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "change"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "equity"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "openRate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pip"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "profitLoss"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sellRate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sellRateBlinkColor"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "averageBuyPrice"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "balance"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "buyRate"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "buyRateBlinkColor"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "change"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "equity"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "init"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "openRate"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "pip"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "profitLoss"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "rate"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "sellRate"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "sellRateBlinkColor"]
+- !private ["9HandyJSON11_MeasurableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["9HandyJSON14_TransformableP", "init"]
+depends-nominal:
+- !private "10RealmSwift11AddableTypeP"
+- !private "s18AdditiveArithmeticP"
+- !private "10RealmSwift28AssistedObjectiveCBridgeableP"
+- !private "SB"
+- !private "s7CVarArgP"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "Sd"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "9HandyJSON21FloatPropertyProtocolP"
+- !private "SF"
+- !private "14ForexWatchlist0A0C"
+- "14ForexWatchlist0A9ViewModelV"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "10RealmSwift10MinMaxTypeP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sj"
+- !private "10RealmSwift6ObjectC"
+- !private "7Combine16ObservableObjectP"
+- !private "So13RLMObjectBaseC"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "10RealmSwift0A15CollectionValueP"
+- !private "10RealmSwift0A12OptionalTypeP"
+- !private "10RealmSwift0A12SubscribableP"
+- !private "s10SIMDScalarP"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s20TextOutputStreamableP"
+- !private "10RealmSwift14ThreadConfinedP"
+- !private "9HandyJSON17_BuiltInBasicTypeP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "10RealmSwift20_ManagedPropertyTypeP"
+- !private "9HandyJSON11_MeasurableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "9HandyJSON14_TransformableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.framework/Modules/HandyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.framework/Headers/HandyJSON.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.framework/Headers/HandyJSON-umbrella.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.framework/Headers/HandyJSON-Swift.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.framework/Modules/module.modulemap"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/deepansh/Desktop/ForexWatchlist/DerivedData/ForexWatchlist/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "823404d447801ccb52c4352ad260ba60"

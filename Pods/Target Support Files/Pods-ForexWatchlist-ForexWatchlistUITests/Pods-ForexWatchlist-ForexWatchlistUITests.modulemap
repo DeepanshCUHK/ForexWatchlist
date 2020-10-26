@@ -1,0 +1,6 @@
+framework module Pods_ForexWatchlist_ForexWatchlistUITests {
+  umbrella header "Pods-ForexWatchlist-ForexWatchlistUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
